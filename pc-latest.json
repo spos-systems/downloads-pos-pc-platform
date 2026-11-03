@@ -1,0 +1,18 @@
+{
+  "latest_version": "1.3.1",
+  "min_supported_version": "1.0.0",
+  "changelog": "أصل ثابت للأبد (spos://app) — نهاية فقدان البيانات وعودة نافذة الإعداد بعد كل إغلاق. معالج الإعداد بخيار النسخة (جهاز واحد / رئيسي شبكي / فرعي بالاقتران) وبطاقة ترخيص مرئية تطلب التجربة بمعرّف النسخة الصحيح وتعرض رسالة الخادم الحقيقية. قناة تحديث عامة فعالة.",
+  "windows": {
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.3.1/SPOS-Solah-PC-Windows-x64-v1.3.1.zip",
+    "sha256": "c74909a7ad34431815722f5942d970832e92e93ce96c6a1389463ec4242da46d",
+    "size_mb": 168,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.3.1/../.."
+  },
+  "full": {
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.3.1/SPOS-Solah-PC-Windows-x64-v1.3.1.zip",
+    "sha256": "c74909a7ad34431815722f5942d970832e92e93ce96c6a1389463ec4242da46d",
+    "size_mb": 168,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.3.1/../.."
+  },
+  "dependencies": {}
+}
