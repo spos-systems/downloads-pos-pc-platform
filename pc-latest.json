@@ -1,18 +1,18 @@
 {
-  "latest_version": "1.4.2",
+  "latest_version": "1.4.3",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح «نافذتا باور شيل فارغتان لا تفعلان شيئاً» ثم «خطأ في التهيئة»: كانتا تهيئة قاعدة البيانات الشبكية نفسها (initdb والخادم) ومخرجاتهما تُقرأ داخلياً فتبدوان فارغتين؛ إغلاقهما قتل التهيئة. الآن كل النوافذ مخفية تماماً، والجهاز المتضرر يُشفى تلقائياً عند أول تشغيل (هدم البقايا الناقصة وإعادة البناء من الصفر)، مع درع يمنع مسح قاعدة أكملت يوماً مهما فشل إقلاع لاحق، ورسائل أوضح عند التدخل الخارجي.",
+  "changelog": "إصلاح «اغلب الصفحات تعطي شاشه سوداء»: طبقة ترجمة استعلامات القاعدة الشبكية كانت تُفسد أشهر أنماط الاستعلامات (ترتيب NULLS يلتصق بـ LIMIT، علامات الديون المالية، كشوف الحسابات، التجميع) فتنهار الصفحات عند الرسم. أُصلحت كلها، وأُضيف درع عرض يُظهر أي خطأ مستقبلي برسالة عربية وزر إعادة بدل شاشة سوداء صامتة.",
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.2/SPOS-Solah-PC-Windows-x64-v1.4.2.zip",
-    "sha256": "b1dde82f2fe45df09520cd788326ee88b10a5f55be9fd44d1e02f87f3e811dd4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.3/SPOS-Solah-PC-Windows-x64-v1.4.3.zip",
+    "sha256": "c1f1ea3333dee627dffa12642af78012dc8795d7ea1e00944a4ff8a92a185103",
     "size_mb": 216.9,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.3"
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.2/SPOS-Solah-PC-Windows-x64-v1.4.2.zip",
-    "sha256": "b1dde82f2fe45df09520cd788326ee88b10a5f55be9fd44d1e02f87f3e811dd4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.3/SPOS-Solah-PC-Windows-x64-v1.4.3.zip",
+    "sha256": "c1f1ea3333dee627dffa12642af78012dc8795d7ea1e00944a4ff8a92a185103",
     "size_mb": 216.9,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.3"
   },
   "dependencies": {}
 }
