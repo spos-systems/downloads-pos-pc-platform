@@ -6,8 +6,8 @@
     "version": "1.6.0",
     "changelog": "RustDesk للدعم عن بعد يثبَّت تلقائياً مع المنظومة دائماً (مع حرس يعيد تثبيته لو غاب) + تحصينات شاملة للمثبّت ونظام التحديثات بعد اختبارهما اختباراً كاملاً. الدعم: 0935535606",
     "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.0/SPOS-Solah-PC-Setup.exe",
-    "sha256": "ff450a971e923a49590d5a817d9a7a4321c3928bea6055dabf4287ac053d4e1b",
-    "size_mb": 0.6
+    "sha256": "67a5813e7063a0506155719e44b7e240f9438fa135f44e58ca94322ef5d4d3b8",
+    "size_mb": 1.5
   },
   "full": {
     "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.0/SPOS-Solah-PC-Windows-x64-v1.6.0.zip",
