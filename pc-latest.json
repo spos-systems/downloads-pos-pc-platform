@@ -1,18 +1,18 @@
 {
-  "latest_version": "1.4.3",
+  "latest_version": "1.4.4",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح «اغلب الصفحات تعطي شاشه سوداء»: طبقة ترجمة استعلامات القاعدة الشبكية كانت تُفسد أشهر أنماط الاستعلامات (ترتيب NULLS يلتصق بـ LIMIT، علامات الديون المالية، كشوف الحسابات، التجميع) فتنهار الصفحات عند الرسم. أُصلحت كلها، وأُضيف درع عرض يُظهر أي خطأ مستقبلي برسالة عربية وزر إعادة بدل شاشة سوداء صامتة.",
+  "changelog": "إصلاح بلاغ المالك: «توليد البيانات الضخمة تفشل وبعض الأزرار لا تفتح نوافذها ولا تفعل شيئاً».",
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.3/SPOS-Solah-PC-Windows-x64-v1.4.3.zip",
-    "sha256": "c1f1ea3333dee627dffa12642af78012dc8795d7ea1e00944a4ff8a92a185103",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.4/SPOS-Solah-PC-Windows-x64-v1.4.4.zip",
+    "sha256": "2d860f4bb715807bd38f547de4df06033f46691889e10b5e88516c4bc928c49c",
     "size_mb": 216.9,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.4"
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.3/SPOS-Solah-PC-Windows-x64-v1.4.3.zip",
-    "sha256": "c1f1ea3333dee627dffa12642af78012dc8795d7ea1e00944a4ff8a92a185103",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.4/SPOS-Solah-PC-Windows-x64-v1.4.4.zip",
+    "sha256": "2d860f4bb715807bd38f547de4df06033f46691889e10b5e88516c4bc928c49c",
     "size_mb": 216.9,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.4"
   },
   "dependencies": {}
 }
