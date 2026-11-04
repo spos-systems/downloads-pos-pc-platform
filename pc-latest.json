@@ -1,18 +1,18 @@
 {
-  "latest_version": "1.4.1",
+  "latest_version": "1.4.2",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح «خطأ في التهيئة — هذا الجهاز رئيسي (شبكي)» الذي كان يمنع الدخول بعد تثبيت النسخة الشبكية: الإقلاع الشبكي يكتمل الآن طبيعياً حتى شاشة الدخول. كما لا يعود معالج الإعداد عند كل إقلاع (علامة النسخة تُكتب في قاعدة الشبكة نفسها)، وإكمال المعالج على جهاز رئيسي محدَّث يعمل عبر قاعدة الشبكة بلا أخطاء، ودرع يمنع فقد بيانات كان يعيد آخر نسخة أمان عند كل إقلاع، والنسخ الاحتياطي يعمل في الوضع الشبكي.",
+  "changelog": "إصلاح «نافذتا باور شيل فارغتان لا تفعلان شيئاً» ثم «خطأ في التهيئة»: كانتا تهيئة قاعدة البيانات الشبكية نفسها (initdb والخادم) ومخرجاتهما تُقرأ داخلياً فتبدوان فارغتين؛ إغلاقهما قتل التهيئة. الآن كل النوافذ مخفية تماماً، والجهاز المتضرر يُشفى تلقائياً عند أول تشغيل (هدم البقايا الناقصة وإعادة البناء من الصفر)، مع درع يمنع مسح قاعدة أكملت يوماً مهما فشل إقلاع لاحق، ورسائل أوضح عند التدخل الخارجي.",
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.1/SPOS-Solah-PC-Windows-x64-v1.4.1.zip",
-    "sha256": "3efe7ea04fdce4d8290a6e9926f69f4f0e7cd8e31d6099da7c76dae607328ca2",
-    "size_mb": 216.8,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.1"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.2/SPOS-Solah-PC-Windows-x64-v1.4.2.zip",
+    "sha256": "b1dde82f2fe45df09520cd788326ee88b10a5f55be9fd44d1e02f87f3e811dd4",
+    "size_mb": 216.9,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.2"
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.1/SPOS-Solah-PC-Windows-x64-v1.4.1.zip",
-    "sha256": "3efe7ea04fdce4d8290a6e9926f69f4f0e7cd8e31d6099da7c76dae607328ca2",
-    "size_mb": 216.8,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.1"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.4.2/SPOS-Solah-PC-Windows-x64-v1.4.2.zip",
+    "sha256": "b1dde82f2fe45df09520cd788326ee88b10a5f55be9fd44d1e02f87f3e811dd4",
+    "size_mb": 216.9,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.4.2"
   },
   "dependencies": {}
 }
