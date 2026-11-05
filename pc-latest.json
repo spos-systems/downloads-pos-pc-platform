@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.8.2",
+  "latest_version": "1.8.3",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح جوهري للمحدّث التلقائي — بالمنطق السحابي الذكي نفسه الذي اعتمده المالك: «نعتمد المثبّت لأنه هو فقط من عمل وهو آمن وموثوق». كل تحديث على ويندوز يمر الآن بالمثبّت الرسمي الجميل حصراً من أول نقرة: تنزيله (1.5 ميجابايت) من قناة التحديث مع ملاذ الرابط الدائم، فحص بصمة SHA256 إجباري، ثم تشغيله بوضع الترحيل فيغلق التطبيق وينزّل الحزمة الجديدة مدرَّعة ويثبّتها ويحذف النسخة القديمة ويشغّل الجديدة — بلا أي UAC. جذر الخلل القديم: فحص الحجم كان يرفض المثبّت الصغير بحجة أنه أقل من 20MB فيحذفه سليماً ويفشل التحديث دائماً برسالة «ليس المثبّت المتوقع» — استُبدل بحدود المُطلِق الصغير. مسار حزمة zip والمساعد الخارجي خرج من ويندوز نهائياً وبقي للينكس حصراً. الدعم: 0935535606",
+  "changelog": "درع صمود نقطة البيع — بلاغ المالك: «صفحة نقطة البيع تعطي خطأ ولا تظهر». الصفحة لم تعد تسقط أبداً مهما فشل استعلام: كل استعلام تركيب (منتجات/وردية/عملاء/مستويات الأسعار/خصومات) في قفصه الخاص — فشل أحدها يعرض تنبيهاً يحمل نص الخطأ الحقيقي والبقية تعمل والبائع يكمل عمله. استعلامات الرسم (رصيد العميل، نقاط الولاء، مخزون المتغيرات) بدرع كامل، واسم/باركود فارغ من بيانات مستوردة لم يعد يفجّر الصفحة. درع الصفحات يثبّت الخطأ في سجل الجهاز — بلاغ الدعم يحمله حرفياً — ويعرض نصه مع زر نسخ. ودجة التجربة صار ارتفاعها فوق أزرار إتمام البيع مفهوماً بتلميح يشرح: ترتفع كي لا تحجب أزرار الدفع وتنزل تلقائياً عند تفريغ السلة. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاح جوهري للمحدّث التلقائي — بالمنطق السحابي الذكي نفسه الذي اعتمده المالك: «نعتمد المثبّت لأنه هو فقط من عمل وهو آمن وموثوق». كل تحديث على ويندوز يمر الآن بالمثبّت الرسمي الجميل حصراً من أول نقرة: تنزيله (1.5 ميجابايت) من قناة التحديث مع ملاذ الرابط الدائم، فحص بصمة SHA256 إجباري، ثم تشغيله بوضع الترحيل فيغلق التطبيق وينزّل الحزمة الجديدة مدرَّعة ويثبّتها ويحذف النسخة القديمة ويشغّل الجديدة — بلا أي UAC. جذر الخلل القديم: فحص الحجم كان يرفض المثبّت الصغير بحجة أنه أقل من 20MB فيحذفه سليماً ويفشل التحديث دائماً برسالة «ليس المثبّت المتوقع» — استُبدل بحدود المُطلِق الصغير. مسار حزمة zip والمساعد الخارجي خرج من ويندوز نهائياً وبقي للينكس حصراً. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.2/SPOS-Solah-PC-Setup.exe",
-    "sha256": "80679278e75450952e37e5336ef9e64e2f03af8c82a34dae02413425d77f53db",
+    "changelog": "المثبّت الجميل كما هو (1.6.4) — لا تغيير فيه هذا الإصدار",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Setup.exe",
+    "sha256": "c5a3e06e269a4766ab03d49986d12c639a9a23dde63098201a2ea59c248448c0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.2/SPOS-Solah-PC-Windows-x64-v1.8.2.zip",
-    "sha256": "d6d016113501ffbc60f6278ef1c8ec643ef605c34ebeae4c0ec247984316831c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Windows-x64-v1.8.3.zip",
+    "sha256": "ca318ab7975f776fc287e8f7bdc7727b422f0c64bc76f1deffde5e015be92908",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.2/SPOS-Solah-PC-Windows-x64-v1.8.2.zip",
-    "sha256": "d6d016113501ffbc60f6278ef1c8ec643ef605c34ebeae4c0ec247984316831c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Windows-x64-v1.8.3.zip",
+    "sha256": "ca318ab7975f776fc287e8f7bdc7727b422f0c64bc76f1deffde5e015be92908",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.2/SPOS-Solah-PC-Linux-x64-v1.8.2.zip",
-    "sha256": "b8ba3c3895c07d4787c5568c7f13d3c19de214f6a8a03fea27fb0d81c89d7ca0",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Linux-x64-v1.8.3.zip",
+    "sha256": "9c8efccae7ce6f2ae7d7e72f5efcae44ec757bb2bd6446612d491f3bc3fef45a",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.2/SPOS-Solah-PC-Linux-x64-v1.8.2.AppImage",
-    "sha256": "86669db3c38ddaf53d3b32165ffc4eb9098f6b4d97c33460c67d69b97801c4df",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Linux-x64-v1.8.3.AppImage",
+    "sha256": "63ada7b40a0f88a2b16bbfd6eb81c5d658a1ddc573e11457d1d2acb4b6d2523a",
     "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.2/SPOS-Solah-PC-Setup.exe",
-    "sha256": "80679278e75450952e37e5336ef9e64e2f03af8c82a34dae02413425d77f53db",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Setup.exe",
+    "sha256": "c5a3e06e269a4766ab03d49986d12c639a9a23dde63098201a2ea59c248448c0",
     "size_mb": 1.5
   },
   "dependencies": {}
