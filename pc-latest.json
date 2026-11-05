@@ -1,41 +1,41 @@
 {
-  "latest_version": "1.8.3",
+  "latest_version": "1.9.0",
   "min_supported_version": "1.0.0",
-  "changelog": "درع صمود نقطة البيع — بلاغ المالك: «صفحة نقطة البيع تعطي خطأ ولا تظهر». الصفحة لم تعد تسقط أبداً مهما فشل استعلام: كل استعلام تركيب (منتجات/وردية/عملاء/مستويات الأسعار/خصومات) في قفصه الخاص — فشل أحدها يعرض تنبيهاً يحمل نص الخطأ الحقيقي والبقية تعمل والبائع يكمل عمله. استعلامات الرسم (رصيد العميل، نقاط الولاء، مخزون المتغيرات) بدرع كامل، واسم/باركود فارغ من بيانات مستوردة لم يعد يفجّر الصفحة. درع الصفحات يثبّت الخطأ في سجل الجهاز — بلاغ الدعم يحمله حرفياً — ويعرض نصه مع زر نسخ. ودجة التجربة صار ارتفاعها فوق أزرار إتمام البيع مفهوماً بتلميح يشرح: ترتفع كي لا تحجب أزرار الدفع وتنزل تلقائياً عند تفريغ السلة. الدعم: 0935535606",
+  "changelog": "نظام المقاعد منسوخ من WPF إلى الرئيسي والفروع — بلاغ المالك: «المفروض يطلع QR يفحصه الفني ويضيفه». زر «إضافة مقاعد» يعرض رمز QR يحمله الفني فيمسحه فتضاف مقاعد جديدة للترخيص (في لوحة الرئيسي ولوحة الفرع معاً)، وبطاقات المقاعد الحية بنمط WPF: جهاز مسجَّل بآخر ظهور وفك ارتباط، طلب اقتران جديد بموافقة ورفض، ومقعد فارغ متاح لجهاز جديد. أُصلح الخلل نفسه: المقاعد التي يضيفها الفني لم تكن تظهر حتى إعادة التشغيل — زر «تحديث» يجلبها فوراً من الخادم. ختم المطبوعات صار يحمل أرقام تواصلنا (دعم وواتساب: 0935535606) في كل ما يخرج من المنظومة، وصفحة الإعدادات صارت أعرض بتنسيق السحابية نفسه. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "المثبّت الجميل كما هو (1.6.4) — لا تغيير فيه هذا الإصدار",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Setup.exe",
+    "changelog": "نظام المقاعد منسوخ من WPF إلى الرئيسي والفروع — بلاغ المالك: «المفروض يطلع QR يفحصه الفني ويضيفه». زر «إضافة مقاعد» يعرض رمز QR يحمله الفني فيمسحه فتضاف مقاعد جديدة للترخيص (في لوحة الرئيسي ولوحة الفرع معاً)، وبطاقات المقاعد الحية بنمط WPF: جهاز مسجَّل بآخر ظهور وفك ارتباط، طلب اقتران جديد بموافقة ورفض، ومقعد فارغ متاح لجهاز جديد. أُصلح الخلل نفسه: المقاعد التي يضيفها الفني لم تكن تظهر حتى إعادة التشغيل — زر «تحديث» يجلبها فوراً من الخادم. ختم المطبوعات صار يحمل أرقام تواصلنا (دعم وواتساب: 0935535606) في كل ما يخرج من المنظومة، وصفحة الإعدادات صارت أعرض بتنسيق السحابية نفسه. الدعم: 0935535606",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Setup.exe",
     "sha256": "c5a3e06e269a4766ab03d49986d12c639a9a23dde63098201a2ea59c248448c0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Windows-x64-v1.8.3.zip",
-    "sha256": "ca318ab7975f776fc287e8f7bdc7727b422f0c64bc76f1deffde5e015be92908",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Windows-x64-v1.9.0.zip",
+    "sha256": "eff66b93dcc42132cb6223ee192fcd14fd3888a0f58fc8bf8d53a7707cece4bd",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Windows-x64-v1.8.3.zip",
-    "sha256": "ca318ab7975f776fc287e8f7bdc7727b422f0c64bc76f1deffde5e015be92908",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Windows-x64-v1.9.0.zip",
+    "sha256": "eff66b93dcc42132cb6223ee192fcd14fd3888a0f58fc8bf8d53a7707cece4bd",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Linux-x64-v1.8.3.zip",
-    "sha256": "9c8efccae7ce6f2ae7d7e72f5efcae44ec757bb2bd6446612d491f3bc3fef45a",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Linux-x64-v1.9.0.zip",
+    "sha256": "d57e88bbefaae993517b10c8babe87638eb0e701bcf9c432bca5f26553013439",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Linux-x64-v1.8.3.AppImage",
-    "sha256": "63ada7b40a0f88a2b16bbfd6eb81c5d658a1ddc573e11457d1d2acb4b6d2523a",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Linux-x64-v1.9.0.AppImage",
+    "sha256": "ad2497a1fbd281ad79ac298adc8b92b59f62cd60746c84ce206cf8aa497daaa3",
     "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.3/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Setup.exe",
     "sha256": "c5a3e06e269a4766ab03d49986d12c639a9a23dde63098201a2ea59c248448c0",
     "size_mb": 1.5
   },
