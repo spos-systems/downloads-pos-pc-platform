@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.7.0",
+  "latest_version": "1.8.0",
   "min_supported_version": "1.0.0",
-  "changelog": "المطابقة الكاملة مع المنظومة السحابية — نقل المزايا المشتركة التي لم تُنسخ: حد الآجل لكل عميل (بلا حد/منع كلي/سقف دين) يُفحص في نقطة البيع قبل أي كتابة، صندوق لكل كاشير والمدير يرى الجميع، درع أسعار السلة يرفض السالب والفاسد قبل كتابة المال، حذف السند من صفحة الديون يعكس الرصيد وحركة الصندوق كاملة، كشوف حسابات صادقة (البيع الجزئي يظهر والمرتجع بدينه المحصّل والرصيد الافتتاحي لا يكون سالباً)، البطاقة تُسجل على الوردية في كل مساراتها، سقف الدفع الزائد برسالة صادقة بدل القص الصامت، تفرّد الباركود وSKU، فواتير كل كاشير لا يراها إلا من يملك الإذن، عين كشف كلمة المرور وتفعيل البصمة يُعلن بنجاحه، سجل تدقيق الإعدادات الحساسة، زر دعم عائم دائم بورقة دعم كاملة (واتساب/اتصال/تيليغرام + بلاغ مشكلة يرفق آخر الأخطاء الملتقطة تلقائياً)، التقاط أخطاء الواجهة الشامل مع حارس تحميل الحزم، وشاشة «تحديث مطلوب» الإجبارية التي تقفل التطبيق دون التحديث. الدعم: 0935535606",
+  "changelog": "موجة الدقة المحاسبية الصارمة: رصيد الدرج التراكمي الصادق في تقرير الوردية المطبوع، ومصروف البطاقة لا يُخصم من درج النقد بعد اليوم (كان يظهر فائض/عجز كاذب عند العد)، وحارس إقفال وردية الغير، ومنع الإقفال المزدوج بين أجهزة الشبكية. ذرّية كاملة لسداد الموردين وحذف السندات وحفظ المنتجات. وللشبكية: حجز الفواتير المعلّقة بين الأجهزة ومنع بيعها مرتين (مخزون ودين ونقاط)، وعدّاد الباركود الذرّي (لا توليد مزدوج). نوافذ التقارير أكبر.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "المطابقة الكاملة مع المنظومة السحابية — نقل المزايا المشتركة التي لم تُنسخ: حد الآجل لكل عميل (بلا حد/منع كلي/سقف دين) يُفحص في نقطة البيع قبل أي كتابة، صندوق لكل كاشير والمدير يرى الجميع، درع أسعار السلة يرفض السالب والفاسد قبل كتابة المال، حذف السند من صفحة الديون يعكس الرصيد وحركة الصندوق كاملة، كشوف حسابات صادقة (البيع الجزئي يظهر والمرتجع بدينه المحصّل والرصيد الافتتاحي لا يكون سالباً)، البطاقة تُسجل على الوردية في كل مساراتها، سقف الدفع الزائد برسالة صادقة بدل القص الصامت، تفرّد الباركود وSKU، فواتير كل كاشير لا يراها إلا من يملك الإذن، عين كشف كلمة المرور وتفعيل البصمة يُعلن بنجاحه، سجل تدقيق الإعدادات الحساسة، زر دعم عائم دائم بورقة دعم كاملة (واتساب/اتصال/تيليغرام + بلاغ مشكلة يرفق آخر الأخطاء الملتقطة تلقائياً)، التقاط أخطاء الواجهة الشامل مع حارس تحميل الحزم، وشاشة «تحديث مطلوب» الإجبارية التي تقفل التطبيق دون التحديث. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.7.0/SPOS-Solah-PC-Setup.exe",
-    "sha256": "79693463642b68bab31a05ea6ad79a1aa742880ba97ea64dc536d44800fb0481",
+    "changelog": "موجة الدقة المحاسبية الصارمة: رصيد الدرج التراكمي الصادق في تقرير الوردية المطبوع، ومصروف البطاقة لا يُخصم من درج النقد بعد اليوم (كان يظهر فائض/عجز كاذب عند العد)، وحارس إقفال وردية الغير، ومنع الإقفال المزدوج بين أجهزة الشبكية. ذرّية كاملة لسداد الموردين وحذف السندات وحفظ المنتجات. وللشبكية: حجز الفواتير المعلّقة بين الأجهزة ومنع بيعها مرتين (مخزون ودين ونقاط)، وعدّاد الباركود الذرّي (لا توليد مزدوج). نوافذ التقارير أكبر.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Setup.exe",
+    "sha256": "cc923872b0115aace90ba4e48da1679a3544aab1ba47aeed6c5f50cfef897112",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.7.0/SPOS-Solah-PC-Windows-x64-v1.7.0.zip",
-    "sha256": "7cb1effc54b887d4679e4441fb92c2f8428da38a2f7e4c40eecb931641c9f46d",
-    "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.7.0"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Windows-x64-v1.8.0.zip",
+    "sha256": "40442f40a334bcbd8faf4243e7d70b11c54998e4946f5184694d0ba1ad2e90a7",
+    "size_mb": 241.4,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.7.0/SPOS-Solah-PC-Windows-x64-v1.7.0.zip",
-    "sha256": "7cb1effc54b887d4679e4441fb92c2f8428da38a2f7e4c40eecb931641c9f46d",
-    "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.7.0"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Windows-x64-v1.8.0.zip",
+    "sha256": "40442f40a334bcbd8faf4243e7d70b11c54998e4946f5184694d0ba1ad2e90a7",
+    "size_mb": 241.4,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.7.0/SPOS-Solah-PC-Linux-x64-v1.7.0.zip",
-    "sha256": "9ad42a3dd27c82e86c0f2b0749f06e3a94183e274eddf0f3b817c25f04dc13cc",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Linux-x64-v1.8.0.zip",
+    "sha256": "28518bac250f4c95e269ff699d1a7cdb4c6675ca558b47b5c2bee50c3714105b",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.7.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.7.0/SPOS-Solah-PC-Linux-x64-v1.7.0.AppImage",
-    "sha256": "d913aef28f930b0d335c6716633d099763dfd27c76c54a86d3fccb210a4ee9f6",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Linux-x64-v1.8.0.AppImage",
+    "sha256": "3f15003f9a1fe30b8e6aaa11fb54259f79576c4170e2fb04f3202922a90ac2bf",
     "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.7.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.7.0/SPOS-Solah-PC-Setup.exe",
-    "sha256": "79693463642b68bab31a05ea6ad79a1aa742880ba97ea64dc536d44800fb0481",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Setup.exe",
+    "sha256": "cc923872b0115aace90ba4e48da1679a3544aab1ba47aeed6c5f50cfef897112",
     "size_mb": 1.5
   },
   "dependencies": {}
