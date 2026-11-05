@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.8.0",
+  "latest_version": "1.8.1",
   "min_supported_version": "1.0.0",
-  "changelog": "موجة الدقة المحاسبية الصارمة: رصيد الدرج التراكمي الصادق في تقرير الوردية المطبوع، ومصروف البطاقة لا يُخصم من درج النقد بعد اليوم (كان يظهر فائض/عجز كاذب عند العد)، وحارس إقفال وردية الغير، ومنع الإقفال المزدوج بين أجهزة الشبكية. ذرّية كاملة لسداد الموردين وحذف السندات وحفظ المنتجات. وللشبكية: حجز الفواتير المعلّقة بين الأجهزة ومنع بيعها مرتين (مخزون ودين ونقاط)، وعدّاد الباركود الذرّي (لا توليد مزدوج). نوافذ التقارير أكبر.",
+  "changelog": "الباركود والفواتير بمستوى WPF كاملاً: ملصقات الباركود الآن برمز Code 128 حقيقي قابل للمسح (كانت أشرطة شكلية لا يقرؤها ماسح)، نافذة طباعة الملصق بخياراتها الكاملة (اسم النشاط/المنتج/السعر + معايرة الإزاحة X/Y + اختيار الطابعة + طابعة ملصقات 50×30مم مباشرة أو شبكة A4)، طباعة SKU متغيرات المنتج بسعرها، فاتورة A4 تطبع الدين السابق وإجمالي الرصيد المستحق على العميل (دقة محاسبية صارمة من وقائع الفواتير والسندات)، عنوان «فاتورة مبيعات ضريبية»، عمود الضمان وتاريخ انتهائه، الأرقام التسلسلية تحت الأصناف، اسم المتغير (اللون - المقاس)، التوقيعات الثلاثة (المستلم/المحاسب المالي/الختم)، والإيصال الحراري بباركود رقم الفاتورة للمسح السريع عند المرتجع + هاتف العميل. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "موجة الدقة المحاسبية الصارمة: رصيد الدرج التراكمي الصادق في تقرير الوردية المطبوع، ومصروف البطاقة لا يُخصم من درج النقد بعد اليوم (كان يظهر فائض/عجز كاذب عند العد)، وحارس إقفال وردية الغير، ومنع الإقفال المزدوج بين أجهزة الشبكية. ذرّية كاملة لسداد الموردين وحذف السندات وحفظ المنتجات. وللشبكية: حجز الفواتير المعلّقة بين الأجهزة ومنع بيعها مرتين (مخزون ودين ونقاط)، وعدّاد الباركود الذرّي (لا توليد مزدوج). نوافذ التقارير أكبر.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Setup.exe",
-    "sha256": "cc923872b0115aace90ba4e48da1679a3544aab1ba47aeed6c5f50cfef897112",
+    "changelog": "الباركود والفواتير بمستوى WPF كاملاً: ملصقات الباركود الآن برمز Code 128 حقيقي قابل للمسح (كانت أشرطة شكلية لا يقرؤها ماسح)، نافذة طباعة الملصق بخياراتها الكاملة (اسم النشاط/المنتج/السعر + معايرة الإزاحة X/Y + اختيار الطابعة + طابعة ملصقات 50×30مم مباشرة أو شبكة A4)، طباعة SKU متغيرات المنتج بسعرها، فاتورة A4 تطبع الدين السابق وإجمالي الرصيد المستحق على العميل (دقة محاسبية صارمة من وقائع الفواتير والسندات)، عنوان «فاتورة مبيعات ضريبية»، عمود الضمان وتاريخ انتهائه، الأرقام التسلسلية تحت الأصناف، اسم المتغير (اللون - المقاس)، التوقيعات الثلاثة (المستلم/المحاسب المالي/الختم)، والإيصال الحراري بباركود رقم الفاتورة للمسح السريع عند المرتجع + هاتف العميل. الدعم: 0935535606",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.1/SPOS-Solah-PC-Setup.exe",
+    "sha256": "7e97fac352021e6910c50919ba0fb204ac51066f0f9e5de1ffd847f079426aac",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Windows-x64-v1.8.0.zip",
-    "sha256": "40442f40a334bcbd8faf4243e7d70b11c54998e4946f5184694d0ba1ad2e90a7",
-    "size_mb": 241.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.1/SPOS-Solah-PC-Windows-x64-v1.8.1.zip",
+    "sha256": "516ac167d5a21d2f7a1e259081907c8be2055de1081c1b1f0c45ef2743d41a7a",
+    "size_mb": 241.5,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.1"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Windows-x64-v1.8.0.zip",
-    "sha256": "40442f40a334bcbd8faf4243e7d70b11c54998e4946f5184694d0ba1ad2e90a7",
-    "size_mb": 241.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.1/SPOS-Solah-PC-Windows-x64-v1.8.1.zip",
+    "sha256": "516ac167d5a21d2f7a1e259081907c8be2055de1081c1b1f0c45ef2743d41a7a",
+    "size_mb": 241.5,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.1"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Linux-x64-v1.8.0.zip",
-    "sha256": "28518bac250f4c95e269ff699d1a7cdb4c6675ca558b47b5c2bee50c3714105b",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.1/SPOS-Solah-PC-Linux-x64-v1.8.1.zip",
+    "sha256": "d9d1755a76f580217f8f50d571de19b199901b66605308723b5090b8a1e6c915",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.1"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Linux-x64-v1.8.0.AppImage",
-    "sha256": "3f15003f9a1fe30b8e6aaa11fb54259f79576c4170e2fb04f3202922a90ac2bf",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.1/SPOS-Solah-PC-Linux-x64-v1.8.1.AppImage",
+    "sha256": "50e9b74897eb18ef3fcbd4b599f47334513140fe9c10ba39001f6037d6c3667d",
     "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.8.1"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.0/SPOS-Solah-PC-Setup.exe",
-    "sha256": "cc923872b0115aace90ba4e48da1679a3544aab1ba47aeed6c5f50cfef897112",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.8.1/SPOS-Solah-PC-Setup.exe",
+    "sha256": "7e97fac352021e6910c50919ba0fb204ac51066f0f9e5de1ffd847f079426aac",
     "size_mb": 1.5
   },
   "dependencies": {}
