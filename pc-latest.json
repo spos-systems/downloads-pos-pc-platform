@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.6.1",
+  "latest_version": "1.6.2",
   "min_supported_version": "1.0.0",
-  "changelog": "المثبّت لم يعد يحذف شيئاً أبداً (ترقية قياسية فوق القائم)، والمُزيل وحده يزيل كل شيء بالكامل: البرنامج والاختصارات والسجل والبيانات (إن اخترت) وأداة الدعم RustDesk وكل المؤقتات — وبعد إزالة كاملة يعمل المثبّت كأنه جديد، وأمر الإزالة من «إعدادات ويندوز» يفتح المُزيل الجميل بنفس تصميم المثبّت. الدعم: 0935535606",
+  "changelog": "إصلاح جوهري للمزيل: اختيار «إبقاء البيانات» كان يترك كل ملفات المنظومة في مكانها ولا يزيل سوى الاختصار وRustDesk — السبب سطر إطلاق معطوب في سكربت الحذف النهائي لم يكن يعمل قط. الآن المزيل يحذف ملفات المنظومة فعلياً أثناء شريط التقدم الذي تراه، بعد إيقاف كل عمليات المنظومة (بما فيها قاعدة البيانات الشبكية) أولاً، ويُبقي بياناتك المحلية إن اخترت إبقاءها فقط. الدعم: 0935535606",
   "launcher": {
-    "version": "1.6.3",
-    "changelog": "المثبّت لم يعد يحذف شيئاً أبداً (ترقية قياسية فوق القائم)، والمُزيل وحده يزيل كل شيء بالكامل: البرنامج والاختصارات والسجل والبيانات (إن اخترت) وأداة الدعم RustDesk وكل المؤقتات — وبعد إزالة كاملة يعمل المثبّت كأنه جديد، وأمر الإزالة من «إعدادات ويندوز» يفتح المُزيل الجميل بنفس تصميم المثبّت. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/SPOS-Solah-PC-Setup.exe",
-    "sha256": "c6cb9c13e273fcaa43378dc4cb8f225cc6c5675f5cba185891f932e26514b3fb",
+    "version": "1.6.4",
+    "changelog": "المزيل الجميل v1.6.4: حذف ملفات المنظومة يتم الآن فعلياً في نافذة الإزالة نفسها — كان سطر إطلاق سكربت الحذف النهائي معطوباً منذ النقل فلا يُحذف شيء بعد الإزالة سوى الاختصار وRustDesk. مع إيقاف كل عمليات المنظومة وقاعدة البيانات الشبكية أولاً، وحذف دليلي البيانات كليهما عند طلب حذف البيانات، ودرع ثانٍ يعمل بعد الإغلاق لأي بقايا مقفولة. وبعد إزالة كاملة يعمل المثبّت كأنه جديد.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.2/SPOS-Solah-PC-Setup.exe",
+    "sha256": "0c3653a2b3d0fb29894092a87cdb664a40c5209ef43bb97a474f19b60d773fdf",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/SPOS-Solah-PC-Windows-x64-v1.6.1.zip",
-    "sha256": "9f4dd64bb2048b9dd5def775aab5ee43df67504499becf46a01557d021619a5c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.2/SPOS-Solah-PC-Windows-x64-v1.6.2.zip",
+    "sha256": "6ba1eba37fa068da9f2376142da155cad7d8b8a0f96d3792b3d9cb961174904d",
     "size_mb": 241.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/tag/v1.6.1"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.6.2"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/SPOS-Solah-PC-Windows-x64-v1.6.1.zip",
-    "sha256": "9f4dd64bb2048b9dd5def775aab5ee43df67504499becf46a01557d021619a5c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.2/SPOS-Solah-PC-Windows-x64-v1.6.2.zip",
+    "sha256": "6ba1eba37fa068da9f2376142da155cad7d8b8a0f96d3792b3d9cb961174904d",
     "size_mb": 241.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/tag/v1.6.1"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.6.2"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/SPOS-Solah-PC-Linux-x64-v1.6.1.zip",
-    "sha256": "8736cc3cc8747db5000965dbb53f1cbd0333b6d994a13684bd768da9b6eb21ac",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.2/SPOS-Solah-PC-Linux-x64-v1.6.2.zip",
+    "sha256": "f35dd33b2d964ea6d17c1413318e45be0201065e0046a49e2df119672b7dd1a8",
     "size_mb": 134.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/tag/v1.6.1"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.6.2"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/SPOS-Solah-PC-Linux-x64-v1.6.1.AppImage",
-    "sha256": "9831d7409e0c05ef58b743d678109641103034a05dfa1ae7061fb1bd364bc0cc",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.2/SPOS-Solah-PC-Linux-x64-v1.6.2.AppImage",
+    "sha256": "7cced91446eebbf2fe879bb421290f64a04bd28405dff5415702879d3cb52738",
     "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/tag/v1.6.1"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.6.2"
   },
   "installer": {
-    "version": "1.6.3",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.1/SPOS-Solah-PC-Setup.exe",
-    "sha256": "c6cb9c13e273fcaa43378dc4cb8f225cc6c5675f5cba185891f932e26514b3fb",
+    "version": "1.6.4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.2/SPOS-Solah-PC-Setup.exe",
+    "sha256": "0c3653a2b3d0fb29894092a87cdb664a40c5209ef43bb97a474f19b60d773fdf",
     "size_mb": 1.5
   },
   "dependencies": {}
