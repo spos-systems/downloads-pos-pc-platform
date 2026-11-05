@@ -3,10 +3,10 @@
   "min_supported_version": "1.0.0",
   "changelog": "RustDesk للدعم عن بعد يثبَّت تلقائياً مع المنظومة دائماً (مع حرس يعيد تثبيته لو غاب) + تحصينات شاملة للمثبّت ونظام التحديثات بعد اختبارهما اختباراً كاملاً. الدعم: 0935535606",
   "launcher": {
-    "version": "1.6.1",
-    "changelog": "إصلاح البلاغ الكبير بعد الإزالة وإعادة الفتح: المثبّت كان يقول «المنظومة محدّثة وجاهزة» رغم حذف ملفاتها ثم يفشل التشغيل — الآن يكتشف النقص فورًا ويعيد التثبيت بنفسه مع الحفاظ على بياناتك. مزيل أنيق داخل ملفات المنظومة (اختصار عربي بلا نافذة سوداء) وإزالة تقتل التطبيق الجاري أولًا فلا بقايا نصف محذوفة. الدعم: 0935535606",
+    "version": "1.6.2",
+    "changelog": "المزيل الجميل الحقيقي: نافذة الإزالة بنفس تصميم المثبّت تماماً (لوحة الهوية والبطل المتحرك ورمز QR) بدل البطاقة الصغيرة، وكل طرق الإزالة (من الملفات، قائمة ابدأ، إعدادات ويندوز) تفتحها هي لا التطبيق — وحُذف نهائياً ملف الدفعات الذي كان يومض كونسولاً أسود. والمثبّت الآن يزيل كل شيء قبل أي تثبيت أو تحديث أو إصلاح: محو شامل لمجلد البرنامج ثم تثبيت من الصفر — فلا بقايا من إصدارات قديمة أبداً، وبياناتك خارج المجلد فلا تُمسّ. الدعم: 0935535606",
     "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.0/SPOS-Solah-PC-Setup.exe",
-    "sha256": "1b6db3a5e0be5d9eb78b2c3bdcc51340ad0a2333ce13f8a3c7d6e201547eac18",
+    "sha256": "2e5088a78bed858b46df0677790ee910d8fdf03711179c7de210b1b5838a991b",
     "size_mb": 1.5
   },
   "full": {
@@ -34,9 +34,9 @@
     "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.6.0"
   },
   "installer": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.0/SPOS-Solah-PC-Windows-Setup-x64-v1.6.0.exe",
-    "sha256": "c6634765e14b3bc2b14bfd9d5ce9f27f71f335d37f82ec142a2449b49e9bbf7d",
-    "size_mb": 186.6,
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.6.0/SPOS-Solah-PC-Setup.exe",
+    "sha256": "2e5088a78bed858b46df0677790ee910d8fdf03711179c7de210b1b5838a991b",
+    "size_mb": 1.5,
     "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.6.0"
   },
   "dependencies": {}
