@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.9.4",
+  "latest_version": "1.9.5",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح غياب اسم الكاشير عن الفواتير والإيصالات — بلاغ المالك: «لماذا لا يذكر الكاشير في الفواتير والإيصالات». كان إدراج البيع في نقطة البيع يعكس معاملين فيكتب معرّف المستخدم في خانة سبب المرتجع وختم الفاتورة المعلقة في خانة الكاشير — فتطبع الفواتير والإيصالات «—» مكانه، وتقارير نشاط الموظفين لا تحسب مبيعات الكاشير، والكاشير غير المدير لا يرى فواتيره في صفحة المبيعات، وحارس منع بيع التذكرة المعلقة مرتين معطّل. الآن: الكاشير يُسجّل على كل بيع من أول مرة، وترقية شفاء تلقائية عند أول تشغيل تستعيد اسم الكاشير على كل الفواتير السابقة المتضررة وتعيد أختام التذاكر المعلّقة لمكانها. الدعم: 0935535606",
+  "changelog": "نافذة إضافة/تعديل منتج بارتفاع ثابت لا يتمدد ولا ينكمش عند التنقل بين التبويبات، ومسح الباركود بماسح USB بدل الكاميرا — بلاغ المالك: «نوافذ إضافة أو تعديل منتج لازالت تكبر وتصغر عن التنقل بين تبويباتها، ولازال زر مسح الباركود يقول لم تستطع فتح الكاميرا ولا أعلم أي كاميرا ونحن نبني منظومة للكمبيوتر». الآن: نافذة المنتج تستقر على ارتفاع ثابت من لحظة فتحها ورأس التبويبات وأزرار الحفظ مثبتة وكل تبويب يتمرر وحده، وزر المسح يفتح نافذة التقاط تعمل بماسح USB (يكتب الرمز بلوحة المفاتيح ويختم بـ Enter) مع إدخال يدوي — في نافذة المنتج وفي نقطة البيع بوضع الكاشير المستمر لمسح صنف بعد صنف. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاح غياب اسم الكاشير عن الفواتير والإيصالات — بلاغ المالك: «لماذا لا يذكر الكاشير في الفواتير والإيصالات». كان إدراج البيع في نقطة البيع يعكس معاملين فيكتب معرّف المستخدم في خانة سبب المرتجع وختم الفاتورة المعلقة في خانة الكاشير — فتطبع الفواتير والإيصالات «—» مكانه، وتقارير نشاط الموظفين لا تحسب مبيعات الكاشير، والكاشير غير المدير لا يرى فواتيره في صفحة المبيعات، وحارس منع بيع التذكرة المعلقة مرتين معطّل. الآن: الكاشير يُسجّل على كل بيع من أول مرة، وترقية شفاء تلقائية عند أول تشغيل تستعيد اسم الكاشير على كل الفواتير السابقة المتضررة وتعيد أختام التذاكر المعلّقة لمكانها. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Setup.exe",
-    "sha256": "afed5227dadd99d5b5d690afe6509652c02415874c12f4dd876976a5c4e7f59d",
+    "changelog": "المثبّت الجميل بلا تغيير (v1.6.4) — يقرأ قناة التحديث وينزّل أحدث إصدار تلقائياً",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Setup.exe",
+    "sha256": "6b2323bcca7688ab32c1191fbebdc22d1564bece200c3b1c2258e16772576135",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Windows-x64-v1.9.4.zip",
-    "sha256": "7f9f64e4e1500b1e959941d0ccc16a64bcea01e25f5d7e9235f4befe34b34e63",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Windows-x64-v1.9.5.zip",
+    "sha256": "c7fc630e9884f3e902546918f8c384b24b70dccb69811816c4466afda5282702",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Windows-x64-v1.9.4.zip",
-    "sha256": "7f9f64e4e1500b1e959941d0ccc16a64bcea01e25f5d7e9235f4befe34b34e63",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Windows-x64-v1.9.5.zip",
+    "sha256": "c7fc630e9884f3e902546918f8c384b24b70dccb69811816c4466afda5282702",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Linux-x64-v1.9.4.zip",
-    "sha256": "8de195f63f1248203f24806c98da5492e900d4785a0861e85d5121cbbec063f8",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Linux-x64-v1.9.5.zip",
+    "sha256": "b765d849d8d9f8a005887c0f4461784283b8aaf9d1003f18bec5ba0cf953d1d7",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Linux-x64-v1.9.4.AppImage",
-    "sha256": "ba331dea2a2b1fe3792e4e1ce1afec5752f6d4490db9f1c38cb2418bedbf86f0",
-    "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Linux-x64-v1.9.5.AppImage",
+    "sha256": "c2ee59ef7489f64079e6d76ef4fef3ed3d26b1b1fc322e77080bdcb3003fbc47",
+    "size_mb": 136.1,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Setup.exe",
-    "sha256": "afed5227dadd99d5b5d690afe6509652c02415874c12f4dd876976a5c4e7f59d",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Setup.exe",
+    "sha256": "6b2323bcca7688ab32c1191fbebdc22d1564bece200c3b1c2258e16772576135",
     "size_mb": 1.5
   },
   "dependencies": {}
