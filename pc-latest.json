@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.9.3",
+  "latest_version": "1.9.4",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح كل أزرار الإخراج على الأجهزة بلا طابعات — بلاغ المالك: «حفظ للـ pdf يفشل بحجه عدم وجود طابعه واصلا كل ازرار الاخراج تفشل». جهاز بلا أي طابعة كان يفشل في كل شيء: نافذة الطباعة لا تفتح أصلاً فيهلك معها «حفظ كـ PDF»، وتصدير CSV والنسخة الاحتياطية بلا أثر. الآن: حفظ PDF حقيقي بلا طابعات إطلاقاً (إيصال حراري وفاتورة A4 وتقرير وملصقات بمقاساتها الصحيحة + مربع «حفظ باسم»)، وكل زر طباعة يحفظ المستند PDF تلقائياً عند غياب الطابعات مع إشعار واضح، وتصدير CSV والنسخة الاحتياطية عبر مربع حفظ النظام مباشرة. الدعم: 0935535606",
+  "changelog": "إصلاح غياب اسم الكاشير عن الفواتير والإيصالات — بلاغ المالك: «لماذا لا يذكر الكاشير في الفواتير والإيصالات». كان إدراج البيع في نقطة البيع يعكس معاملين فيكتب معرّف المستخدم في خانة سبب المرتجع وختم الفاتورة المعلقة في خانة الكاشير — فتطبع الفواتير والإيصالات «—» مكانه، وتقارير نشاط الموظفين لا تحسب مبيعات الكاشير، والكاشير غير المدير لا يرى فواتيره في صفحة المبيعات، وحارس منع بيع التذكرة المعلقة مرتين معطّل. الآن: الكاشير يُسجّل على كل بيع من أول مرة، وترقية شفاء تلقائية عند أول تشغيل تستعيد اسم الكاشير على كل الفواتير السابقة المتضررة وتعيد أختام التذاكر المعلّقة لمكانها. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاح كل أزرار الإخراج على الأجهزة بلا طابعات — بلاغ المالك: «حفظ للـ pdf يفشل بحجه عدم وجود طابعه واصلا كل ازرار الاخراج تفشل». جهاز بلا أي طابعة كان يفشل في كل شيء: نافذة الطباعة لا تفتح أصلاً فيهلك معها «حفظ كـ PDF»، وتصدير CSV والنسخة الاحتياطية بلا أثر. الآن: حفظ PDF حقيقي بلا طابعات إطلاقاً (إيصال حراري وفاتورة A4 وتقرير وملصقات بمقاساتها الصحيحة + مربع «حفظ باسم»)، وكل زر طباعة يحفظ المستند PDF تلقائياً عند غياب الطابعات مع إشعار واضح، وتصدير CSV والنسخة الاحتياطية عبر مربع حفظ النظام مباشرة. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Setup.exe",
-    "sha256": "cbd03e299dc420e106a3d0c0765478736115fab00bd378bef58f4c9210820b57",
+    "changelog": "إصلاح غياب اسم الكاشير عن الفواتير والإيصالات — بلاغ المالك: «لماذا لا يذكر الكاشير في الفواتير والإيصالات». كان إدراج البيع في نقطة البيع يعكس معاملين فيكتب معرّف المستخدم في خانة سبب المرتجع وختم الفاتورة المعلقة في خانة الكاشير — فتطبع الفواتير والإيصالات «—» مكانه، وتقارير نشاط الموظفين لا تحسب مبيعات الكاشير، والكاشير غير المدير لا يرى فواتيره في صفحة المبيعات، وحارس منع بيع التذكرة المعلقة مرتين معطّل. الآن: الكاشير يُسجّل على كل بيع من أول مرة، وترقية شفاء تلقائية عند أول تشغيل تستعيد اسم الكاشير على كل الفواتير السابقة المتضررة وتعيد أختام التذاكر المعلّقة لمكانها. الدعم: 0935535606",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Setup.exe",
+    "sha256": "afed5227dadd99d5b5d690afe6509652c02415874c12f4dd876976a5c4e7f59d",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Windows-x64-v1.9.3.zip",
-    "sha256": "48540408745ac4fd5e23867be3ecf0775ebbf2206fc9ca3f18014a711140e329",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Windows-x64-v1.9.4.zip",
+    "sha256": "7f9f64e4e1500b1e959941d0ccc16a64bcea01e25f5d7e9235f4befe34b34e63",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Windows-x64-v1.9.3.zip",
-    "sha256": "48540408745ac4fd5e23867be3ecf0775ebbf2206fc9ca3f18014a711140e329",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Windows-x64-v1.9.4.zip",
+    "sha256": "7f9f64e4e1500b1e959941d0ccc16a64bcea01e25f5d7e9235f4befe34b34e63",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Linux-x64-v1.9.3.zip",
-    "sha256": "f93b9c147f52c2425be53fc18c360cf5add73ffbd6b73045877e7d60e62ce592",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Linux-x64-v1.9.4.zip",
+    "sha256": "8de195f63f1248203f24806c98da5492e900d4785a0861e85d5121cbbec063f8",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Linux-x64-v1.9.3.AppImage",
-    "sha256": "0541bfb323674ad4a9bf17978159ff7cbdfbae5ccbcc7828538637f138c629d7",
-    "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Linux-x64-v1.9.4.AppImage",
+    "sha256": "ba331dea2a2b1fe3792e4e1ce1afec5752f6d4490db9f1c38cb2418bedbf86f0",
+    "size_mb": 136.0,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.4"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Setup.exe",
-    "sha256": "cbd03e299dc420e106a3d0c0765478736115fab00bd378bef58f4c9210820b57",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.4/SPOS-Solah-PC-Setup.exe",
+    "sha256": "afed5227dadd99d5b5d690afe6509652c02415874c12f4dd876976a5c4e7f59d",
     "size_mb": 1.5
   },
   "dependencies": {}
