@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.9.7",
+  "latest_version": "1.9.9",
   "min_supported_version": "1.0.0",
-  "changelog": "وضع المطعم والمقاهي بنمط WPF الأصلي — بلاغ المالك: «هل يمكن تفعيل وضع المطعم مثل الـ WPF المرجع؟». من الإعدادات ← البيانات الأساسية ← «وضع المطعم والطاولات»: فعّل الوضع وأضف طاولاتك (الاسم/السعة/القسم: صالة، عائلي، حديقة). في نقطة البيع يظهر شريط أنواع الطلب (داخلي/خارجي/توصيل/هاتفي): «داخلي» يفتح أرضية الطاولات — طاولة متاحة تفتح طلباً جديداً ومشغولة تعرض إجمالي طلبها ومدة جلستها وتستكمل بنقرة. زر «حفظ للطاولة» يبقي الطلب حياً حتى الدفع من أي جهاز، والدفع يحرر الطاولة فوراً. اسم الطاولة ونوع الطلب يظهران على الإيصال وفاتورة A4 وتذكرة المطبخ (بارزة بخط كبير مع ملاحظة المطبخ) وفي صفحة الفواتير. كما صارت كومبوبوكسات الطابعات الأربع في الإعدادات بنمط WPF الأصلي بدل القوائم الخام (بلاغ: «لماذا الكومبوبوكس عند فتحه HTML صافي»). وإصلاح حرج: ترقيلات أعمدة قاعدة الشبكة (PG) كانت تفشل صامتاً فلا تصل الأعمدة الجديدة للأجهزة الشبكية القائمة — أُصلحت واختُبرت على PostgreSQL حقيقي. الدعم: 0935535606",
+  "changelog": "إصلاح جذري للوضع الشبكي: نقل مباشر بلا بروكسي + اكتشاف تلقائي للجهاز الرئيسي (منارة UDP) + رسائل أعطال صادقة (منفذ مغلق/جدار حماية/خدمة أجنبية) + تحصين نظام المقاعد (إنفاذ لحظي وقت الخدمة، إسقاط المقاعد المنتهية، توقيع سجل الأجهزة HMAC وكشف العبث، مقعد محدد لكل جهاز بصلاحيته) + قواعد جدار حماية ويندوز مع التثبيت + إيقاف استطلاع الاقتران المعطل برسالة واضحة",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "وضع المطعم والمقاهي بنمط WPF الأصلي — بلاغ المالك: «هل يمكن تفعيل وضع المطعم مثل الـ WPF المرجع؟». من الإعدادات ← البيانات الأساسية ← «وضع المطعم والطاولات»: فعّل الوضع وأضف طاولاتك (الاسم/السعة/القسم: صالة، عائلي، حديقة). في نقطة البيع يظهر شريط أنواع الطلب (داخلي/خارجي/توصيل/هاتفي): «داخلي» يفتح أرضية الطاولات — طاولة متاحة تفتح طلباً جديداً ومشغولة تعرض إجمالي طلبها ومدة جلستها وتستكمل بنقرة. زر «حفظ للطاولة» يبقي الطلب حياً حتى الدفع من أي جهاز، والدفع يحرر الطاولة فوراً. اسم الطاولة ونوع الطلب يظهران على الإيصال وفاتورة A4 وتذكرة المطبخ (بارزة بخط كبير مع ملاحظة المطبخ) وفي صفحة الفواتير. كما صارت كومبوبوكسات الطابعات الأربع في الإعدادات بنمط WPF الأصلي بدل القوائم الخام (بلاغ: «لماذا الكومبوبوكس عند فتحه HTML صافي»). وإصلاح حرج: ترقيلات أعمدة قاعدة الشبكة (PG) كانت تفشل صامتاً فلا تصل الأعمدة الجديدة للأجهزة الشبكية القائمة — أُصلحت واختُبرت على PostgreSQL حقيقي. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Setup.exe",
-    "sha256": "167bde4362f9309ca511e493e91d0c8de4871a7096f19124c267c4a812b603b4",
+    "changelog": "إصلاح جذري للوضع الشبكي: نقل مباشر بلا بروكسي + اكتشاف تلقائي للجهاز الرئيسي (منارة UDP) + رسائل أعطال صادقة (منفذ مغلق/جدار حماية/خدمة أجنبية) + تحصين نظام المقاعد (إنفاذ لحظي وقت الخدمة، إسقاط المقاعد المنتهية، توقيع سجل الأجهزة HMAC وكشف العبث، مقعد محدد لكل جهاز بصلاحيته) + قواعد جدار حماية ويندوز مع التثبيت + إيقاف استطلاع الاقتران المعطل برسالة واضحة",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Setup.exe",
+    "sha256": "e58edf4686a7c7bbd4cc14481c0942af6a234991e6151b16a0ec159f6f40ac5b",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Windows-x64-v1.9.7.zip",
-    "sha256": "7a4e1b1f65e5111b7bd2716d541422fe7747057f251c7e97e30c82d8271f12a4",
-    "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Windows-x64-v1.9.9.zip",
+    "sha256": "51928da90543e9a3968a0cec353bca437f04490070ee74f8ebc030ab14b680e8",
+    "size_mb": 241.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Windows-x64-v1.9.7.zip",
-    "sha256": "7a4e1b1f65e5111b7bd2716d541422fe7747057f251c7e97e30c82d8271f12a4",
-    "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Windows-x64-v1.9.9.zip",
+    "sha256": "51928da90543e9a3968a0cec353bca437f04490070ee74f8ebc030ab14b680e8",
+    "size_mb": 241.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Linux-x64-v1.9.7.zip",
-    "sha256": "484773d512c12aab8dde60fc9f0f93133d10b229b734758a39a8d48b9aa30b31",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Linux-x64-v1.9.9.zip",
+    "sha256": "b5ded12025f139ea62596c01da9b3f776726dfb6cd993b380c100160a76953d4",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Linux-x64-v1.9.7.AppImage",
-    "sha256": "07c70b63d0c8e21fb70632249d82576085fa72a9fa22fd1eff91cd9aa5eddfb4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Linux-x64-v1.9.9.AppImage",
+    "sha256": "cb6ebd712a64be38b9c7916a38f0e5495e2c140b870bae0c1eb248b914361b40",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Setup.exe",
-    "sha256": "167bde4362f9309ca511e493e91d0c8de4871a7096f19124c267c4a812b603b4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Setup.exe",
+    "sha256": "e58edf4686a7c7bbd4cc14481c0942af6a234991e6151b16a0ec159f6f40ac5b",
     "size_mb": 1.5
   },
   "dependencies": {}
