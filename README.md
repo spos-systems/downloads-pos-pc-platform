@@ -2,6 +2,14 @@
 حزم تحديث منظومة صولة للكمبيوتر — SPOS Solah PC application packages.
 
 ## التثبيت — الطريقة الموصى بها 🌟
+
+### لينكس (سطر واحد)
+```bash
+curl -fsSL https://raw.githubusercontent.com/spos-systems/downloads-pos-pc-platform/main/SPOS-Solah-PC-Linux-Install.sh | sudo bash
+```
+ينزّل أحدث إصدار رسمي، يتحقق من بصمته SHA256، ويثبّته عبر apt.
+
+### ويندوز
 حمّل المثبّت الجميل الصغير وشغّله — ينزّل أحدث إصدار ويثبّته تلقائياً على جهازك
 (نفس مثبّت السحابية: واجهة عربية متحركة، تنزيل قابل للاستئناف، تحقق بصمة،
 وتثبيت RustDesk للدعم عن بعد دائماً مع المنظومة):
