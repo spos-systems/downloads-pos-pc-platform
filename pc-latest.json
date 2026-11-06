@@ -1,41 +1,41 @@
 {
-  "latest_version": "1.9.0",
+  "latest_version": "1.9.1",
   "min_supported_version": "1.0.0",
-  "changelog": "نظام المقاعد منسوخ من WPF إلى الرئيسي والفروع — بلاغ المالك: «المفروض يطلع QR يفحصه الفني ويضيفه». زر «إضافة مقاعد» يعرض رمز QR يحمله الفني فيمسحه فتضاف مقاعد جديدة للترخيص (في لوحة الرئيسي ولوحة الفرع معاً)، وبطاقات المقاعد الحية بنمط WPF: جهاز مسجَّل بآخر ظهور وفك ارتباط، طلب اقتران جديد بموافقة ورفض، ومقعد فارغ متاح لجهاز جديد. أُصلح الخلل نفسه: المقاعد التي يضيفها الفني لم تكن تظهر حتى إعادة التشغيل — زر «تحديث» يجلبها فوراً من الخادم. ختم المطبوعات صار يحمل أرقام تواصلنا (دعم وواتساب: 0935535606) في كل ما يخرج من المنظومة، وصفحة الإعدادات صارت أعرض بتنسيق السحابية نفسه. الدعم: 0935535606",
+  "changelog": "إصلاح عطل «الترخيص لا يسجل ويتطلب إنترنت في كل مرة»: بصمة الجهاز كانت تتقلب على الكمبيوتر (رسم Canvas يختلف بين عرض GPU والعرض البرمجي وبسباق تحميل الخط، والمنطقة الزمنية ولغات النظام) فكان ختم خزنة الترخيص ينكسر بين الإقلاعات فيُطلب الإنترنت كل مرة. الآن البصمة مرساة بمعرّف الآلة الحقيقي من نظام التشغيل (MachineGuid/machine-id) مثل WPF تماماً، ومرآة ملف في بيانات التطبيق تحمل الترخيص ومفتاح تشفير القاعدة ومعرّف الجهاز مختومين — تصمد بعد مسح تخزين المتصفح بالكامل. الجهاز القائم يهاجر بلا إنترنت: أول فتح بعد التحديث يفكّ الختم القديم ويعتمد الترخيص القائم كما هو. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "نظام المقاعد منسوخ من WPF إلى الرئيسي والفروع — بلاغ المالك: «المفروض يطلع QR يفحصه الفني ويضيفه». زر «إضافة مقاعد» يعرض رمز QR يحمله الفني فيمسحه فتضاف مقاعد جديدة للترخيص (في لوحة الرئيسي ولوحة الفرع معاً)، وبطاقات المقاعد الحية بنمط WPF: جهاز مسجَّل بآخر ظهور وفك ارتباط، طلب اقتران جديد بموافقة ورفض، ومقعد فارغ متاح لجهاز جديد. أُصلح الخلل نفسه: المقاعد التي يضيفها الفني لم تكن تظهر حتى إعادة التشغيل — زر «تحديث» يجلبها فوراً من الخادم. ختم المطبوعات صار يحمل أرقام تواصلنا (دعم وواتساب: 0935535606) في كل ما يخرج من المنظومة، وصفحة الإعدادات صارت أعرض بتنسيق السحابية نفسه. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Setup.exe",
+    "changelog": "إصلاح عطل «الترخيص لا يسجل ويتطلب إنترنت في كل مرة»: بصمة الجهاز كانت تتقلب على الكمبيوتر (رسم Canvas يختلف بين عرض GPU والعرض البرمجي وبسباق تحميل الخط، والمنطقة الزمنية ولغات النظام) فكان ختم خزنة الترخيص ينكسر بين الإقلاعات فيُطلب الإنترنت كل مرة. الآن البصمة مرساة بمعرّف الآلة الحقيقي من نظام التشغيل (MachineGuid/machine-id) مثل WPF تماماً، ومرآة ملف في بيانات التطبيق تحمل الترخيص ومفتاح تشفير القاعدة ومعرّف الجهاز مختومين — تصمد بعد مسح تخزين المتصفح بالكامل. الجهاز القائم يهاجر بلا إنترنت: أول فتح بعد التحديث يفكّ الختم القديم ويعتمد الترخيص القائم كما هو. الدعم: 0935535606",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.1/SPOS-Solah-PC-Setup.exe",
     "sha256": "c5a3e06e269a4766ab03d49986d12c639a9a23dde63098201a2ea59c248448c0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Windows-x64-v1.9.0.zip",
-    "sha256": "eff66b93dcc42132cb6223ee192fcd14fd3888a0f58fc8bf8d53a7707cece4bd",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.1/SPOS-Solah-PC-Windows-x64-v1.9.1.zip",
+    "sha256": "286aabea473cc0e6f109d3e26525027dd604b307121c54135d6396bbd6f9e877",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.1"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Windows-x64-v1.9.0.zip",
-    "sha256": "eff66b93dcc42132cb6223ee192fcd14fd3888a0f58fc8bf8d53a7707cece4bd",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.1/SPOS-Solah-PC-Windows-x64-v1.9.1.zip",
+    "sha256": "286aabea473cc0e6f109d3e26525027dd604b307121c54135d6396bbd6f9e877",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.1"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Linux-x64-v1.9.0.zip",
-    "sha256": "d57e88bbefaae993517b10c8babe87638eb0e701bcf9c432bca5f26553013439",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.1/SPOS-Solah-PC-Linux-x64-v1.9.1.zip",
+    "sha256": "007d789557214307b3e1ee780e72c494bff6cc6f15e33cfb113de3b54c74d36f",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.1"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Linux-x64-v1.9.0.AppImage",
-    "sha256": "ad2497a1fbd281ad79ac298adc8b92b59f62cd60746c84ce206cf8aa497daaa3",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.1/SPOS-Solah-PC-Linux-x64-v1.9.1.AppImage",
+    "sha256": "d2b6600d4f697510ff45c1fc78fb02be05763cdd55d701b45f7eb52e1e04442a",
     "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.0"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.1"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.0/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.1/SPOS-Solah-PC-Setup.exe",
     "sha256": "c5a3e06e269a4766ab03d49986d12c639a9a23dde63098201a2ea59c248448c0",
     "size_mb": 1.5
   },
