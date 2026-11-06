@@ -1,49 +1,49 @@
 {
-  "latest_version": "1.9.9",
+  "latest_version": "1.9.10",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح جذري للوضع الشبكي: نقل مباشر بلا بروكسي + اكتشاف تلقائي للجهاز الرئيسي (منارة UDP) + رسائل أعطال صادقة (منفذ مغلق/جدار حماية/خدمة أجنبية) + تحصين نظام المقاعد (إنفاذ لحظي وقت الخدمة، إسقاط المقاعد المنتهية، توقيع سجل الأجهزة HMAC وكشف العبث، مقعد محدد لكل جهاز بصلاحيته) + قواعد جدار حماية ويندوز مع التثبيت + إيقاف استطلاع الاقتران المعطل برسالة واضحة",
+  "changelog": "أربعة إصلاحات جذرية: (1) انزياح أعمدة قاعدة الشبكة PG الذي أسقط صفحة المبيعات وأزرار الطباعة بعد البيع — القراءة الآن بترتيب الأعمدة الفعلي من information_schema، (2) شريط التنقل لا يفتح ولا يقفل إلا بضغط زر «القائمة»، (3) الدخول دوماً عند تعذر الشبكة: إنترنت ضعيف أو خادم ترخيص مغلق = دخول فوري بالترخيص المحلي الموقّن (مهلة 6 ث للشبكة بدل انتظار يفجّر مهلة الإقلاع)، (4) مثبّت لينكس صغير جديد (4KB) ينزّل ويثبّت أحدث إصدار بتحقق البصمة",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاح جذري للوضع الشبكي: نقل مباشر بلا بروكسي + اكتشاف تلقائي للجهاز الرئيسي (منارة UDP) + رسائل أعطال صادقة (منفذ مغلق/جدار حماية/خدمة أجنبية) + تحصين نظام المقاعد (إنفاذ لحظي وقت الخدمة، إسقاط المقاعد المنتهية، توقيع سجل الأجهزة HMAC وكشف العبث، مقعد محدد لكل جهاز بصلاحيته) + قواعد جدار حماية ويندوز مع التثبيت + إيقاف استطلاع الاقتران المعطل برسالة واضحة",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Setup.exe",
-    "sha256": "e58edf4686a7c7bbd4cc14481c0942af6a234991e6151b16a0ec159f6f40ac5b",
+    "changelog": "أربعة إصلاحات جذرية: (1) انزياح أعمدة قاعدة الشبكة PG الذي أسقط صفحة المبيعات وأزرار الطباعة بعد البيع — القراءة الآن بترتيب الأعمدة الفعلي من information_schema، (2) شريط التنقل لا يفتح ولا يقفل إلا بضغط زر «القائمة»، (3) الدخول دوماً عند تعذر الشبكة: إنترنت ضعيف أو خادم ترخيص مغلق = دخول فوري بالترخيص المحلي الموقّن (مهلة 6 ث للشبكة بدل انتظار يفجّر مهلة الإقلاع)، (4) مثبّت لينكس صغير جديد (4KB) ينزّل ويثبّت أحدث إصدار بتحقق البصمة",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Setup.exe",
+    "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Windows-x64-v1.9.9.zip",
-    "sha256": "51928da90543e9a3968a0cec353bca437f04490070ee74f8ebc030ab14b680e8",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Windows-x64-v1.9.10.zip",
+    "sha256": "363b74368a4a3a373c7e10921d0c02b53b8c78e3d59f827e5e04ab98b3ef58e4",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Windows-x64-v1.9.9.zip",
-    "sha256": "51928da90543e9a3968a0cec353bca437f04490070ee74f8ebc030ab14b680e8",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Windows-x64-v1.9.10.zip",
+    "sha256": "363b74368a4a3a373c7e10921d0c02b53b8c78e3d59f827e5e04ab98b3ef58e4",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Linux-x64-v1.9.9.zip",
-    "sha256": "b5ded12025f139ea62596c01da9b3f776726dfb6cd993b380c100160a76953d4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Linux-x64-v1.9.10.zip",
+    "sha256": "303ca72b3c2b7dd3d82266c8a7681b5892657e5114e2bf6fa20b1eb96962430f",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Linux-x64-v1.9.9.AppImage",
-    "sha256": "cb6ebd712a64be38b9c7916a38f0e5495e2c140b870bae0c1eb248b914361b40",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Linux-x64-v1.9.10.AppImage",
+    "sha256": "e8dbe7b7b31cf7b8062d22e8571dfd454c4250c91a3dd763f95bc8ba320590f4",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
+  },
+  "deb": {
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Linux-x64-v1.9.10.deb",
+    "sha256": "f014a594624a49a196029fd5075e7a584ac4b47a74d013d37f6c453f9d6661f6",
+    "size_mb": 106.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Setup.exe",
-    "sha256": "e58edf4686a7c7bbd4cc14481c0942af6a234991e6151b16a0ec159f6f40ac5b",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Setup.exe",
+    "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
-  "dependencies": {},
-  "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Linux-x64-v1.9.9.deb",
-    "sha256": "a438cd48b46a9e5ade1dc2cf86d935e837e5c7cb3a5865c2391ffba1190733c4",
-    "size_mb": 106.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
-  }
+  "dependencies": {}
 }
