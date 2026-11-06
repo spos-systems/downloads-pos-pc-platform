@@ -39,5 +39,11 @@
     "sha256": "e58edf4686a7c7bbd4cc14481c0942af6a234991e6151b16a0ec159f6f40ac5b",
     "size_mb": 1.5
   },
-  "dependencies": {}
+  "dependencies": {},
+  "deb": {
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.9/SPOS-Solah-PC-Linux-x64-v1.9.9.deb",
+    "sha256": "a438cd48b46a9e5ade1dc2cf86d935e837e5c7cb3a5865c2391ffba1190733c4",
+    "size_mb": 106.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.9"
+  }
 }
