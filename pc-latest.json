@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.9.5",
+  "latest_version": "1.9.6",
   "min_supported_version": "1.0.0",
-  "changelog": "نافذة إضافة/تعديل منتج بارتفاع ثابت لا يتمدد ولا ينكمش عند التنقل بين التبويبات، ومسح الباركود بماسح USB بدل الكاميرا — بلاغ المالك: «نوافذ إضافة أو تعديل منتج لازالت تكبر وتصغر عن التنقل بين تبويباتها، ولازال زر مسح الباركود يقول لم تستطع فتح الكاميرا ولا أعلم أي كاميرا ونحن نبني منظومة للكمبيوتر». الآن: نافذة المنتج تستقر على ارتفاع ثابت من لحظة فتحها ورأس التبويبات وأزرار الحفظ مثبتة وكل تبويب يتمرر وحده، وزر المسح يفتح نافذة التقاط تعمل بماسح USB (يكتب الرمز بلوحة المفاتيح ويختم بـ Enter) مع إدخال يدوي — في نافذة المنتج وفي نقطة البيع بوضع الكاشير المستمر لمسح صنف بعد صنف. الدعم: 0935535606",
+  "changelog": "تحديد كل طابعة لكل غرض من الإعدادات — بلاغ المالك: «يجب تحديد كل طابعة لأي شيء من الإعدادات لأن المنظومة لم تتعرف على الطابعات: ورق A4 أو رول إيصالات أو باركود أو حتى طابعة المطبخ لو كان المستخدم نقاه أو مطعم». الآن في الإعدادات ← الطباعة: طابعة الإيصالات الحرارية، طابعة A4، طابعة ملصقات الباركود 50×30 (كانت مدفونة في نافذة طباعة الباركود فقط)، وطابعة المطبخ للمقاهي والمطاعم — كلٌّ بطابعته من قائمة طابعات النظام وعرض ورقه وخياره الصامت وطباعته التجريبية. وخيار «طباعة طلب المطبخ تلقائياً بعد كل بيع»: تذكرة الأصناف والكميات بخط كبير تصل المطبخ فور إتمام البيع بلا أي لمسة، أو يدوياً بزر «طلب مطبخ» من نافذة نجاح البيع. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "المثبّت الجميل بلا تغيير (v1.6.4) — يقرأ قناة التحديث وينزّل أحدث إصدار تلقائياً",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Setup.exe",
-    "sha256": "6b2323bcca7688ab32c1191fbebdc22d1564bece200c3b1c2258e16772576135",
+    "changelog": "تحديد كل طابعة لكل غرض من الإعدادات — بلاغ المالك: «يجب تحديد كل طابعة لأي شيء من الإعدادات لأن المنظومة لم تتعرف على الطابعات: ورق A4 أو رول إيصالات أو باركود أو حتى طابعة المطبخ لو كان المستخدم نقاه أو مطعم». الآن في الإعدادات ← الطباعة: طابعة الإيصالات الحرارية، طابعة A4، طابعة ملصقات الباركود 50×30 (كانت مدفونة في نافذة طباعة الباركود فقط)، وطابعة المطبخ للمقاهي والمطاعم — كلٌّ بطابعته من قائمة طابعات النظام وعرض ورقه وخياره الصامت وطباعته التجريبية. وخيار «طباعة طلب المطبخ تلقائياً بعد كل بيع»: تذكرة الأصناف والكميات بخط كبير تصل المطبخ فور إتمام البيع بلا أي لمسة، أو يدوياً بزر «طلب مطبخ» من نافذة نجاح البيع. الدعم: 0935535606",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Setup.exe",
+    "sha256": "67f0fbc2b3bb9bfa96e9fbf526ecb711b458775428257c98f93410fce5bba2be",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Windows-x64-v1.9.5.zip",
-    "sha256": "c7fc630e9884f3e902546918f8c384b24b70dccb69811816c4466afda5282702",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Windows-x64-v1.9.6.zip",
+    "sha256": "78f753bb0bfc0dc232706c09f79999e643fc7d280bfe471f4a65a70377cbd177",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Windows-x64-v1.9.5.zip",
-    "sha256": "c7fc630e9884f3e902546918f8c384b24b70dccb69811816c4466afda5282702",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Windows-x64-v1.9.6.zip",
+    "sha256": "78f753bb0bfc0dc232706c09f79999e643fc7d280bfe471f4a65a70377cbd177",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Linux-x64-v1.9.5.zip",
-    "sha256": "b765d849d8d9f8a005887c0f4461784283b8aaf9d1003f18bec5ba0cf953d1d7",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Linux-x64-v1.9.6.zip",
+    "sha256": "712f09fa2dc5920541d219d11ad461ee9ad74c3f91c5585cfda9fd12e4f261da",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Linux-x64-v1.9.5.AppImage",
-    "sha256": "c2ee59ef7489f64079e6d76ef4fef3ed3d26b1b1fc322e77080bdcb3003fbc47",
-    "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.5"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Linux-x64-v1.9.6.AppImage",
+    "sha256": "35a0b95eb2a00cf60838587de865f1886374ad168626ab704b8ba97c39eb5a73",
+    "size_mb": 136.0,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.5/SPOS-Solah-PC-Setup.exe",
-    "sha256": "6b2323bcca7688ab32c1191fbebdc22d1564bece200c3b1c2258e16772576135",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Setup.exe",
+    "sha256": "67f0fbc2b3bb9bfa96e9fbf526ecb711b458775428257c98f93410fce5bba2be",
     "size_mb": 1.5
   },
   "dependencies": {}
