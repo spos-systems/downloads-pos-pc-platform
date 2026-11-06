@@ -1,42 +1,42 @@
 {
-  "latest_version": "1.9.6",
+  "latest_version": "1.9.7",
   "min_supported_version": "1.0.0",
-  "changelog": "تحديد كل طابعة لكل غرض من الإعدادات — بلاغ المالك: «يجب تحديد كل طابعة لأي شيء من الإعدادات لأن المنظومة لم تتعرف على الطابعات: ورق A4 أو رول إيصالات أو باركود أو حتى طابعة المطبخ لو كان المستخدم نقاه أو مطعم». الآن في الإعدادات ← الطباعة: طابعة الإيصالات الحرارية، طابعة A4، طابعة ملصقات الباركود 50×30 (كانت مدفونة في نافذة طباعة الباركود فقط)، وطابعة المطبخ للمقاهي والمطاعم — كلٌّ بطابعته من قائمة طابعات النظام وعرض ورقه وخياره الصامت وطباعته التجريبية. وخيار «طباعة طلب المطبخ تلقائياً بعد كل بيع»: تذكرة الأصناف والكميات بخط كبير تصل المطبخ فور إتمام البيع بلا أي لمسة، أو يدوياً بزر «طلب مطبخ» من نافذة نجاح البيع. الدعم: 0935535606",
+  "changelog": "وضع المطعم والمقاهي بنمط WPF الأصلي — بلاغ المالك: «هل يمكن تفعيل وضع المطعم مثل الـ WPF المرجع؟». من الإعدادات ← البيانات الأساسية ← «وضع المطعم والطاولات»: فعّل الوضع وأضف طاولاتك (الاسم/السعة/القسم: صالة، عائلي، حديقة). في نقطة البيع يظهر شريط أنواع الطلب (داخلي/خارجي/توصيل/هاتفي): «داخلي» يفتح أرضية الطاولات — طاولة متاحة تفتح طلباً جديداً ومشغولة تعرض إجمالي طلبها ومدة جلستها وتستكمل بنقرة. زر «حفظ للطاولة» يبقي الطلب حياً حتى الدفع من أي جهاز، والدفع يحرر الطاولة فوراً. اسم الطاولة ونوع الطلب يظهران على الإيصال وفاتورة A4 وتذكرة المطبخ (بارزة بخط كبير مع ملاحظة المطبخ) وفي صفحة الفواتير. كما صارت كومبوبوكسات الطابعات الأربع في الإعدادات بنمط WPF الأصلي بدل القوائم الخام (بلاغ: «لماذا الكومبوبوكس عند فتحه HTML صافي»). الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "المثبّت الجميل بلا تغيير — يقرأ قناة التحديث وينزّل أحدث إصدار تلقائياً",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Setup.exe",
-    "sha256": "67f0fbc2b3bb9bfa96e9fbf526ecb711b458775428257c98f93410fce5bba2be",
+    "changelog": "وضع المطعم والمقاهي بنمط WPF الأصلي — بلاغ المالك: «هل يمكن تفعيل وضع المطعم مثل الـ WPF المرجع؟». من الإعدادات ← البيانات الأساسية ← «وضع المطعم والطاولات»: فعّل الوضع وأضف طاولاتك (الاسم/السعة/القسم: صالة، عائلي، حديقة). في نقطة البيع يظهر شريط أنواع الطلب (داخلي/خارجي/توصيل/هاتفي): «داخلي» يفتح أرضية الطاولات — طاولة متاحة تفتح طلباً جديداً ومشغولة تعرض إجمالي طلبها ومدة جلستها وتستكمل بنقرة. زر «حفظ للطاولة» يبقي الطلب حياً حتى الدفع من أي جهاز، والدفع يحرر الطاولة فوراً. اسم الطاولة ونوع الطلب يظهران على الإيصال وفاتورة A4 وتذكرة المطبخ (بارزة بخط كبير مع ملاحظة المطبخ) وفي صفحة الفواتير. كما صارت كومبوبوكسات الطابعات الأربع في الإعدادات بنمط WPF الأصلي بدل القوائم الخام (بلاغ: «لماذا الكومبوبوكس عند فتحه HTML صافي»). الدعم: 0935535606",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Setup.exe",
+    "sha256": "7af4f4f22c6c23541d4baa7763cf2fbe46e87c6ff4cce7f5f1c888b397c24446",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Windows-x64-v1.9.6.zip",
-    "sha256": "78f753bb0bfc0dc232706c09f79999e643fc7d280bfe471f4a65a70377cbd177",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Windows-x64-v1.9.7.zip",
+    "sha256": "bd4a622ad58d7318ed6c2e66553890c344d61a228d3ea1628db38f6e0e53ab7c",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Windows-x64-v1.9.6.zip",
-    "sha256": "78f753bb0bfc0dc232706c09f79999e643fc7d280bfe471f4a65a70377cbd177",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Windows-x64-v1.9.7.zip",
+    "sha256": "bd4a622ad58d7318ed6c2e66553890c344d61a228d3ea1628db38f6e0e53ab7c",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Linux-x64-v1.9.6.zip",
-    "sha256": "712f09fa2dc5920541d219d11ad461ee9ad74c3f91c5585cfda9fd12e4f261da",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Linux-x64-v1.9.7.zip",
+    "sha256": "bef47c1f30345c4ab7f9239a43e7ef0955c219d775d8f132792f0e74b04932f6",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Linux-x64-v1.9.6.AppImage",
-    "sha256": "35a0b95eb2a00cf60838587de865f1886374ad168626ab704b8ba97c39eb5a73",
-    "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.6"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Linux-x64-v1.9.7.AppImage",
+    "sha256": "4065eab5cdc13b47300bfb617b5cb84cdc8272e97246ddfe1b722f8c92c492b2",
+    "size_mb": 136.1,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.7"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.6/SPOS-Solah-PC-Setup.exe",
-    "sha256": "67f0fbc2b3bb9bfa96e9fbf526ecb711b458775428257c98f93410fce5bba2be",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.7/SPOS-Solah-PC-Setup.exe",
+    "sha256": "7af4f4f22c6c23541d4baa7763cf2fbe46e87c6ff4cce7f5f1c888b397c24446",
     "size_mb": 1.5
   },
   "dependencies": {}
