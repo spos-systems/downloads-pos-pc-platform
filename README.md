@@ -15,8 +15,18 @@ https://github.com/spos-systems/downloads-pos-pc-platform/releases/latest/downlo
 | --- | --- |
 | ويندوز — حزمة كاملة | `releases/latest/download/SPOS-Solah-PC-Windows-x64.zip` |
 | ويندوز — مثبّت كامل تقليدي | `releases/latest/download/SPOS-Solah-PC-Windows-Setup-x64.exe` |
-| لينكس — حزمة كاملة | `releases/latest/download/SPOS-Solah-PC-Linux-x64.zip` |
+| لينكس — المثبّت ⭐ (أوبونتو/ديبيان/منت/زورين) | `releases/latest/download/SPOS-Solah-PC-Linux-x64.deb` |
+| لينكس — محمول بلا تثبيت (أي توزيعة) | `releases/latest/download/SPOS-Solah-PC-Linux-x64.AppImage` |
+| لينكس — حزمة كاملة (zip) | `releases/latest/download/SPOS-Solah-PC-Linux-x64.zip` |
 
 (أضف `https://github.com/spos-systems/downloads-pos-pc-platform/` قبل كل مسار)
+
+### 🐧 تثبيت لينكس عبر المثبّت (.deb)
+نقرة مزدوجة على الملف، أو من الطرفية:
+```bash
+sudo apt install ./SPOS-Solah-PC-Linux-x64.deb
+```
+بعد التثبيت ستجد «SPOS Solah PC» في قائمة التطبيقات. للإزالة: `sudo apt remove spos-solah-pc`
+(AppImage يعمل مباشرة بدون تثبيت: `chmod +x SPOS-Solah-PC-Linux-x64.AppImage && ./SPOS-Solah-PC-Linux-x64.AppImage`)
 
 الدعم الفني: 0935535606 • واتساب: +218 93 553 5606 • spos.ly
