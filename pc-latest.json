@@ -1,41 +1,41 @@
 {
-  "latest_version": "1.9.2",
+  "latest_version": "1.9.3",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح بلاغ المالك: ① نافذة الدخول تظهر عند كل تشغيل (كانت الجلسة تبقى محفوظة فيفتح التطبيق فوراً بلا شاشة دخول — الآن كنمط WPF الأصلي). ② إصلاح خطأ نقطة البيع TypeError: Cannot read properties of undefined (reading 'includes') — جلسة قديمة بلا مصفوفة صلاحيات كانت تفجّر الصفحة. ③ العلامة المائية صارت ظاهرة فعلاً على كل المخرجات (كانت شفافيتها 0.03 لا تُرى على الورق). ④ العلامة المائية وسطر «أُنشئ بواسطة صولة للأنظمة SPOS» بأرقام التواصل مفعّلان افتراضياً للنسخة المفعّلة أيضاً — لا يُزالان إلا يدوياً من الإعدادات، والتفعيل نفسه لا يُزال أبداً إلا يدوياً. الدعم: 0935535606",
+  "changelog": "إصلاح كل أزرار الإخراج على الأجهزة بلا طابعات — بلاغ المالك: «حفظ للـ pdf يفشل بحجه عدم وجود طابعه واصلا كل ازرار الاخراج تفشل». جهاز بلا أي طابعة كان يفشل في كل شيء: نافذة الطباعة لا تفتح أصلاً فيهلك معها «حفظ كـ PDF»، وتصدير CSV والنسخة الاحتياطية بلا أثر. الآن: حفظ PDF حقيقي بلا طابعات إطلاقاً (إيصال حراري وفاتورة A4 وتقرير وملصقات بمقاساتها الصحيحة + مربع «حفظ باسم»)، وكل زر طباعة يحفظ المستند PDF تلقائياً عند غياب الطابعات مع إشعار واضح، وتصدير CSV والنسخة الاحتياطية عبر مربع حفظ النظام مباشرة. الدعم: 0935535606",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاح بلاغ المالك: ① نافذة الدخول تظهر عند كل تشغيل (كانت الجلسة تبقى محفوظة فيفتح التطبيق فوراً بلا شاشة دخول — الآن كنمط WPF الأصلي). ② إصلاح خطأ نقطة البيع TypeError: Cannot read properties of undefined (reading 'includes') — جلسة قديمة بلا مصفوفة صلاحيات كانت تفجّر الصفحة. ③ العلامة المائية صارت ظاهرة فعلاً على كل المخرجات (كانت شفافيتها 0.03 لا تُرى على الورق). ④ العلامة المائية وسطر «أُنشئ بواسطة صولة للأنظمة SPOS» بأرقام التواصل مفعّلان افتراضياً للنسخة المفعّلة أيضاً — لا يُزالان إلا يدوياً من الإعدادات، والتفعيل نفسه لا يُزال أبداً إلا يدوياً. الدعم: 0935535606",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.2/SPOS-Solah-PC-Setup.exe",
+    "changelog": "إصلاح كل أزرار الإخراج على الأجهزة بلا طابعات — بلاغ المالك: «حفظ للـ pdf يفشل بحجه عدم وجود طابعه واصلا كل ازرار الاخراج تفشل». جهاز بلا أي طابعة كان يفشل في كل شيء: نافذة الطباعة لا تفتح أصلاً فيهلك معها «حفظ كـ PDF»، وتصدير CSV والنسخة الاحتياطية بلا أثر. الآن: حفظ PDF حقيقي بلا طابعات إطلاقاً (إيصال حراري وفاتورة A4 وتقرير وملصقات بمقاساتها الصحيحة + مربع «حفظ باسم»)، وكل زر طباعة يحفظ المستند PDF تلقائياً عند غياب الطابعات مع إشعار واضح، وتصدير CSV والنسخة الاحتياطية عبر مربع حفظ النظام مباشرة. الدعم: 0935535606",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Setup.exe",
     "sha256": "cbd03e299dc420e106a3d0c0765478736115fab00bd378bef58f4c9210820b57",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.2/SPOS-Solah-PC-Windows-x64-v1.9.2.zip",
-    "sha256": "44f7242409197293cb23447f3d985424ae150df296d2cb6787f574fa8f126c9f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Windows-x64-v1.9.3.zip",
+    "sha256": "48540408745ac4fd5e23867be3ecf0775ebbf2206fc9ca3f18014a711140e329",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.2/SPOS-Solah-PC-Windows-x64-v1.9.2.zip",
-    "sha256": "44f7242409197293cb23447f3d985424ae150df296d2cb6787f574fa8f126c9f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Windows-x64-v1.9.3.zip",
+    "sha256": "48540408745ac4fd5e23867be3ecf0775ebbf2206fc9ca3f18014a711140e329",
     "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.2/SPOS-Solah-PC-Linux-x64-v1.9.2.zip",
-    "sha256": "778ff9f75973f5b513bcc01edf5d9a823fe69bca061bd410e96db21667c53a59",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Linux-x64-v1.9.3.zip",
+    "sha256": "f93b9c147f52c2425be53fc18c360cf5add73ffbd6b73045877e7d60e62ce592",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.2"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.2/SPOS-Solah-PC-Linux-x64-v1.9.2.AppImage",
-    "sha256": "3ca5b4b033256e53513e9eee959a4a624fb06c398dbec5a51c81e6b9d406cb8c",
-    "size_mb": 136.0,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.2"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Linux-x64-v1.9.3.AppImage",
+    "sha256": "0541bfb323674ad4a9bf17978159ff7cbdfbae5ccbcc7828538637f138c629d7",
+    "size_mb": 136.1,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.3"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.2/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.3/SPOS-Solah-PC-Setup.exe",
     "sha256": "cbd03e299dc420e106a3d0c0765478736115fab00bd378bef58f4c9210820b57",
     "size_mb": 1.5
   },
