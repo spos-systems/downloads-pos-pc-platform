@@ -1,47 +1,47 @@
 {
-  "latest_version": "1.9.14",
+  "latest_version": "1.9.15",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاحان: (1) التطبيق كان لا يفتح من جديد بعد اكتمال التحديث على لينكس — المحدّث بعد طلب كلمة المرور يعمل جذراً بلا بيئة رسومية فيموت عند الإقلاق؛ الآن يفتح التطبيق تلقائياً بعد التحديث بجهازك أنت. (2) طرد الجهاز الآخر عند الدخول من جهاز ثانٍ صار أسرع: خلال ≤15 ثانية بدل 45. ملاحظة مهمة: ليعمل الطرد يجب أن يكون الجهازان كلاهما على هذا الإصدار — تحقق من رقم الإصدار أسفل شاشة الدخول في كل جهاز.",
+  "changelog": "إصلاح جذري لتحديث لينكس: كان التحديث يكمل التنزيل ثم يغلق التطبيق ولا يحدث شيء بعدها ويبقى الإصدار القديم — نافذة كلمة مرور النظام كانت تظهر بعد إغلاق التطبيق فتفوت المستخدم فيموت التحديث صمتاً كاملاً. الآن النافذة تظهر والتطبيق مفتوح أمامك ولا يغلق إلا بعد منح الإذن، وإن ألغيت النافذة تعود تلقائياً حتى ثلاث مرات، وأي فشل يظهر برسالة عربية واضحة فوراً بدل الصمت، وإعادة الفتح بعد التحديث صارت تجد ملف تصريح الرسوميات الصحيح في الجلسات الحديثة. كما صارت بطاقة تحديث التطبيق في الإعدادات تعرض رقم إصدارك الحالي فوراً بعد أن كانت تظهر حرف v فقط.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاحان: (1) التطبيق كان لا يفتح من جديد بعد اكتمال التحديث على لينكس — المحدّث بعد طلب كلمة المرور يعمل جذراً بلا بيئة رسومية فيموت عند الإقلاق؛ الآن يفتح التطبيق تلقائياً بعد التحديث بجهازك أنت. (2) طرد الجهاز الآخر عند الدخول من جهاز ثانٍ صار أسرع: خلال ≤15 ثانية بدل 45. ملاحظة مهمة: ليعمل الطرد يجب أن يكون الجهازان كلاهما على هذا الإصدار — تحقق من رقم الإصدار أسفل شاشة الدخول في كل جهاز.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Setup.exe",
+    "changelog": "إصلاح جذري لتحديث لينكس: كان التحديث يكمل التنزيل ثم يغلق التطبيق ولا يحدث شيء بعدها ويبقى الإصدار القديم — نافذة كلمة مرور النظام كانت تظهر بعد إغلاق التطبيق فتفوت المستخدم فيموت التحديث صمتاً كاملاً. الآن النافذة تظهر والتطبيق مفتوح أمامك ولا يغلق إلا بعد منح الإذن، وإن ألغيت النافذة تعود تلقائياً حتى ثلاث مرات، وأي فشل يظهر برسالة عربية واضحة فوراً بدل الصمت، وإعادة الفتح بعد التحديث صارت تجد ملف تصريح الرسوميات الصحيح في الجلسات الحديثة. كما صارت بطاقة تحديث التطبيق في الإعدادات تعرض رقم إصدارك الحالي فوراً بعد أن كانت تظهر حرف v فقط.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Setup.exe",
     "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Windows-x64-v1.9.14.zip",
-    "sha256": "5868f6914fe357e7d601b9ddd473389c7bf67a4eb23514918e7586c785fbf10c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Windows-x64-v1.9.15.zip",
+    "sha256": "2e4394b6c4370f03be050b53df57225ec852c0b6a92b1a824e14b57a3e40b575",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Windows-x64-v1.9.14.zip",
-    "sha256": "5868f6914fe357e7d601b9ddd473389c7bf67a4eb23514918e7586c785fbf10c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Windows-x64-v1.9.15.zip",
+    "sha256": "2e4394b6c4370f03be050b53df57225ec852c0b6a92b1a824e14b57a3e40b575",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Linux-x64-v1.9.14.zip",
-    "sha256": "fb4d2ff78aa0240d24b33fec6c16e5d7d13c2223122a8c84b9d6f7d196c52305",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Linux-x64-v1.9.15.zip",
+    "sha256": "ab9649395bcac2b5067bef8f5e7b889cc7451288fc64f03ca57f364f52abfde8",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Linux-x64-v1.9.14.AppImage",
-    "sha256": "26f39eaa6007ce39b480c78bd4d1edcec64745932cf4b03c1775327ffe17a429",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Linux-x64-v1.9.15.AppImage",
+    "sha256": "5ad443b1e960db27e703829e534d8063854efb2dc2c413b1742207fa67ac9395",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Linux-x64-v1.9.14.deb",
-    "sha256": "58c20d38eed37a0fe03309146ff89cb0347a267f771fd1939ad646929beeda5e",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Linux-x64-v1.9.15.deb",
+    "sha256": "afebde4ed9c98315ed839f0156dc6facab30762504d8897a8fd22edca6918a24",
     "size_mb": 106.8,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Setup.exe",
     "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
