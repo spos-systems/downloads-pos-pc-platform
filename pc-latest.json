@@ -1,47 +1,47 @@
 {
-  "latest_version": "1.9.13",
+  "latest_version": "1.9.14",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح «تسجيل الخروج من الجهاز الآخر» في نافذة «جلسة نشطة»: كان الزر يأخذ الجلسة ولا يُخرج الجهاز الآخر فعلاً، فتبقى النافذة تعود عند كل دخول على الجهاز الفرعي. الآن الدخول من جهاز يُخرج الجهاز الآخر تلقائياً خلال ≤45 ثانية مع رسالة تشرح السبب على شاشة الدخول، والخروج الطوعي يمحو الجلسة فلا تعود النافذة بلا سبب. وللعمل على جهازين في الوقت نفسه أنشئ لكل جهاز حساب مستخدم خاصاً به من صفحة «إدارة الموظفين».",
+  "changelog": "إصلاحان: (1) التطبيق كان لا يفتح من جديد بعد اكتمال التحديث على لينكس — المحدّث بعد طلب كلمة المرور يعمل جذراً بلا بيئة رسومية فيموت عند الإقلاق؛ الآن يفتح التطبيق تلقائياً بعد التحديث بجهازك أنت. (2) طرد الجهاز الآخر عند الدخول من جهاز ثانٍ صار أسرع: خلال ≤15 ثانية بدل 45. ملاحظة مهمة: ليعمل الطرد يجب أن يكون الجهازان كلاهما على هذا الإصدار — تحقق من رقم الإصدار أسفل شاشة الدخول في كل جهاز.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاح «تسجيل الخروج من الجهاز الآخر» في نافذة «جلسة نشطة»: كان الزر يأخذ الجلسة ولا يُخرج الجهاز الآخر فعلاً، فتبقى النافذة تعود عند كل دخول على الجهاز الفرعي. الآن الدخول من جهاز يُخرج الجهاز الآخر تلقائياً خلال ≤45 ثانية مع رسالة تشرح السبب على شاشة الدخول، والخروج الطوعي يمحو الجلسة فلا تعود النافذة بلا سبب. وللعمل على جهازين في الوقت نفسه أنشئ لكل جهاز حساب مستخدم خاصاً به من صفحة «إدارة الموظفين».",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.13/SPOS-Solah-PC-Setup.exe",
+    "changelog": "إصلاحان: (1) التطبيق كان لا يفتح من جديد بعد اكتمال التحديث على لينكس — المحدّث بعد طلب كلمة المرور يعمل جذراً بلا بيئة رسومية فيموت عند الإقلاق؛ الآن يفتح التطبيق تلقائياً بعد التحديث بجهازك أنت. (2) طرد الجهاز الآخر عند الدخول من جهاز ثانٍ صار أسرع: خلال ≤15 ثانية بدل 45. ملاحظة مهمة: ليعمل الطرد يجب أن يكون الجهازان كلاهما على هذا الإصدار — تحقق من رقم الإصدار أسفل شاشة الدخول في كل جهاز.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Setup.exe",
     "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.13/SPOS-Solah-PC-Windows-x64-v1.9.13.zip",
-    "sha256": "56e1644718fe9b5ca7082ce1f39d2e734dd5339bf47353f7a958cc2afc70553f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Windows-x64-v1.9.14.zip",
+    "sha256": "5868f6914fe357e7d601b9ddd473389c7bf67a4eb23514918e7586c785fbf10c",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.13"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.13/SPOS-Solah-PC-Windows-x64-v1.9.13.zip",
-    "sha256": "56e1644718fe9b5ca7082ce1f39d2e734dd5339bf47353f7a958cc2afc70553f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Windows-x64-v1.9.14.zip",
+    "sha256": "5868f6914fe357e7d601b9ddd473389c7bf67a4eb23514918e7586c785fbf10c",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.13"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.13/SPOS-Solah-PC-Linux-x64-v1.9.13.zip",
-    "sha256": "2f838bd4209052c2266822abccd52124e2e64522876c5f21298c01c01f52bb1f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Linux-x64-v1.9.14.zip",
+    "sha256": "fb4d2ff78aa0240d24b33fec6c16e5d7d13c2223122a8c84b9d6f7d196c52305",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.13"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.13/SPOS-Solah-PC-Linux-x64-v1.9.13.AppImage",
-    "sha256": "320288c5caf0d6a8f76ba64aeb0214749decfea713c7eba20fef1c8699bd3637",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Linux-x64-v1.9.14.AppImage",
+    "sha256": "26f39eaa6007ce39b480c78bd4d1edcec64745932cf4b03c1775327ffe17a429",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.13"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.13/SPOS-Solah-PC-Linux-x64-v1.9.13.deb",
-    "sha256": "67a4ded58f4c0fe5f37c986a4e89059b8f60473214750e980a338c3a1ea4ee40",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Linux-x64-v1.9.14.deb",
+    "sha256": "58c20d38eed37a0fe03309146ff89cb0347a267f771fd1939ad646929beeda5e",
     "size_mb": 106.8,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.13"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.14"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.13/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.14/SPOS-Solah-PC-Setup.exe",
     "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
