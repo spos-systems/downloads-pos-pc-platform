@@ -26,6 +26,9 @@
 #     3) المظهر يُقرأ في متغير عبر stdout — بلا ملفات مؤقتة نهائياً.
 # دروس v1.9.10: grep وحده لا يقرأ JSON متعدد الأسطر (كتلة "deb" تمتد
 #   على عدة أسطر) — لهذا كان المثبّت يتوقف بعد السطر الترحيبي بصمت.
+# دروس ما بعد v1.9.10 (طلب الزبون): المثبّت يجب أن يضع اختصار سطح
+#   المكتب بنفسه مثل مثبّت ويندوز — لا أن يُترك الزبون لأوامر يدوية.
+#   (قسم 5 أسفل: SUDO_USER + xdg-user-dir + gio trusted).
 # =====================================================================
 set -euo pipefail
 
@@ -169,6 +172,10 @@ fi
 # ملاحظة: قد يُشغَّل السكربت عبر أنبوب (curl | sudo bash) لذا كل أمر قد
 # يقرأ stdin يُعطى </dev/null كي لا يبتلع باقي أسطر السكربت من الأنبوب.
 export DEBIAN_FRONTEND=noninteractive
+# mktemp ينشئ الملف بصلاحية 600 — مستخدم sandbox الـ _apt لا يستطيع قراءته
+# فتظهر ملاحظة apt الشهيرة «Download is performed unsandboxed as root».
+# صلاحية 644 كافية تماماً: ملف في /tmp يُقرأ للتثبيت فقط ثم يُحذف فوراً.
+chmod 644 "$TMPDEB" 2>/dev/null || true
 say "جارٍ التثبيت…"
 APT_OK=0
 if command -v apt-get >/dev/null 2>&1; then
@@ -204,9 +211,35 @@ if [ "$APT_OK" != 1 ]; then
   fi
 fi
 
+# ---------- 5) اختصار على سطح المكتب تلقائياً (مثل مثبّت ويندوز) ----------
+# السكربت يعمل بصلاحية الجذر، لكن المستخدم الفعلي في متغير SUDO_USER —
+# نضع الاختصار على سطح مكتبه هو (لا على سطح مكتب root) ونوثّقه فوراً
+# (يعادل كليك يمين ← Allow Launching في جنوم).
+SHORTCUT=""
+if [ -n "${SUDO_USER:-}" ] && [ "$SUDO_USER" != "root" ] && [ -f /usr/share/applications/spos-solah-pc.desktop ]; then
+  USER_HOME=$(getent passwd "$SUDO_USER" | cut -d: -f6)
+  DESK_DIR=""
+  if command -v xdg-user-dir >/dev/null 2>&1; then
+    DESK_DIR=$(sudo -u "$SUDO_USER" xdg-user-dir DESKTOP 2>/dev/null || true)
+  fi
+  if [ -z "$DESK_DIR" ] || [ ! -d "$DESK_DIR" ]; then DESK_DIR="$USER_HOME/Desktop"; fi
+  if [ ! -d "$DESK_DIR" ] && [ -d "$USER_HOME/سطح المكتب" ]; then DESK_DIR="$USER_HOME/سطح المكتب"; fi
+  if [ -d "$DESK_DIR" ]; then
+    if cp /usr/share/applications/spos-solah-pc.desktop "$DESK_DIR/" 2>/dev/null; then
+      chown "$SUDO_USER:" "$DESK_DIR/spos-solah-pc.desktop" 2>/dev/null || true
+      chmod 755 "$DESK_DIR/spos-solah-pc.desktop" 2>/dev/null || true
+      sudo -u "$SUDO_USER" gio set "$DESK_DIR/spos-solah-pc.desktop" metadata::trusted true 2>/dev/null || true
+      SHORTCUT="$DESK_DIR"
+    fi
+  fi
+fi
+
 INSTALLED_VERSION=$(dpkg-query -W -f='${Version}' "$PKG_NAME" 2>/dev/null || true)
 say ""
 say "=== تم التثبيت بنجاح ✓ (النسخة ${INSTALLED_VERSION:-مجهولة}) ==="
+if [ -n "$SHORTCUT" ]; then
+  say "وضعنا لك اختصاراً على سطح المكتب ✓ (جاهز للنقر فوراً)"
+fi
 say "افتح «SPOS Solah PC» من قائمة التطبيقات (تصنيف Office)"
 say "أو من الطرفية: spos-solah-pc"
 say "للتحديث مستقبلاً: أعد تشغيل نفس أمر التثبيت"
