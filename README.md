@@ -9,6 +9,13 @@ curl -fsSL https://raw.githubusercontent.com/spos-systems/downloads-pos-pc-platf
 ```
 ينزّل أحدث إصدار رسمي، يتحقق من بصمته SHA256، ويثبّته عبر apt.
 
+> 💡 **ظهرت لديك رسالة «Snap version of curl» أو فشل التنزيل؟** لا مشكلة —
+> المثبّت الحديث يتجاوزها تلقائياً (يستخدم wget الأصلي أولاً، أو يمرر تنزيل
+> curl عبر stdout بدل الكتابة في /tmp الذي تحجبه Snap). وإن أحببت بديلاً صريحاً:
+> ```bash
+> wget -qO- https://raw.githubusercontent.com/spos-systems/downloads-pos-pc-platform/main/SPOS-Solah-PC-Linux-Install.sh | sudo bash
+> ```
+
 ### ويندوز
 حمّل المثبّت الجميل الصغير وشغّله — ينزّل أحدث إصدار ويثبّته تلقائياً على جهازك
 (نفس مثبّت السحابية: واجهة عربية متحركة، تنزيل قابل للاستئناف، تحقق بصمة،

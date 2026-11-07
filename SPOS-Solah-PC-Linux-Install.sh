@@ -2,7 +2,7 @@
 # =====================================================================
 # SPOS Solah PC — مثبّت لينكس الصغير (المثبّت الجميل للينكس)
 # ---------------------------------------------------------------------
-# مكافئ SPOS-Solah-PC-Setup.exe في ويندوز: ملف صغير (هذا السكربت ~6KB)
+# مكافئ SPOS-Solah-PC-Setup.exe في ويندوز: ملف صغير (هذا السكربت ~7KB)
 # ينزّل أحدث حزمة .deb رسمية ويتحقق من بصمتها SHA256 ثم يثبّتها عبر apt.
 #
 # الاستخدام (سطر واحد يُنصح به الزبائن):
@@ -15,8 +15,17 @@
 # ثم grep (سطر واحد) — وأي فشل في التحليل لا يوقف السكربت أبداً: يسقط
 # إلى الرابط الدائم لأحدث حزمة في ريليز GitHub.
 #
+# دروس v1.9.11 (خطأ الزبون: «تم التنزيل: 0» ثم «ليس حزمة .deb صالحة»):
+#   نسخة Snap من curl محصورة داخل /tmp خاص بها — فأي كتابة عبر
+#   `curl -o /tmp/...` "تنجح" من وجهة نظر curl لكن الملف لا يظهر أبداً
+#   في /tmp الحقيقي (يبقى 0 بايت). الحل الجذري هنا:
+#     1) نفضّل wget (حزمة apt أصلية — غير محصورة إطلاقاً).
+#     2) مع curl نكتب عبر stdout فقط: bash نفسه (غير محصور) هو من
+#        يفتح الملف الهدف: curl ... > "$out" — فتصل البايتات أياً كان
+#        حصر curl، تماماً كما يعمل أنبوب `curl | bash` نفسه.
+#     3) المظهر يُقرأ في متغير عبر stdout — بلا ملفات مؤقتة نهائياً.
 # دروس v1.9.10: grep وحده لا يقرأ JSON متعدد الأسطر (كتلة "deb" تمتد
-# على عدة أسطر) — لهذا كان المثبّت يتوقف بعد السطر الترحيبي بصمت.
+#   على عدة أسطر) — لهذا كان المثبّت يتوقف بعد السطر الترحيبي بصمت.
 # =====================================================================
 set -euo pipefail
 
@@ -34,39 +43,51 @@ err()  { printf '\033[1;31m%s\033[0m\n' "$*" >&2; }
 [ "$(id -u)" -eq 0 ] || { err "شغّل السكربت بصلاحية الجذر (sudo)"; exit 1; }
 command -v curl >/dev/null 2>&1 || command -v wget >/dev/null 2>&1 || { err "مطلوب curl أو wget للتثبيت"; exit 1; }
 
-fetch() { # <url> <output-file>
-  if command -v curl >/dev/null 2>&1; then
-    curl -fSL --retry 3 --retry-delay 2 --connect-timeout 15 -C - "$1" -o "$2"
-  else
-    wget -q --tries=3 --timeout=15 -O "$2" "$1"
+# ---------- أدوات التنزيل — آمنة ضد إصدار Snap من curl ----------
+# wget (من apt) غير محصور: نفضّله إن وُجد. وإن اضطررنا لـ curl (قد يكون
+# نسخة Snap لا ترى /tmp الحقيقي) فالكتابة عبر stdout فقط — الملف الهدف
+# يفتحه bash الحقيقي فتصل البايتات مهما كان حصر curl.
+download() { # <url> <output-file>
+  if command -v wget >/dev/null 2>&1; then
+    if wget --tries=3 --timeout=30 -O "$2" "$1"; then return 0; fi
+    command -v curl >/dev/null 2>&1 || return 1
+    warn "تعذر wget — إعادة المحاولة عبر curl…"
   fi
+  curl -fSL --retry 3 --retry-delay 2 --connect-timeout 15 "$1" > "$2"
+}
+read_url() { # <url> — يطبع المحتوى على stdout
+  if command -v wget >/dev/null 2>&1; then
+    if wget -q --tries=2 --timeout=20 -O - "$1"; then return 0; fi
+  fi
+  curl -fsSL --retry 2 --retry-delay 2 --connect-timeout 15 "$1"
 }
 
 say "=== منظومة صولة للكمبيوتر — مثبّت لينكس ==="
 
-# ---------- 1) أحدث إصدار من مظهر التحديث ----------
-MANIFEST=""
+# ---------- 1) أحدث إصدار من مظهر التحديث (في متغير — بلا ملفات مؤقتة) ----------
+MANIFEST_JSON=""
 for u in "${MANIFEST_URLS[@]}"; do
-  if fetch "$u" /tmp/spos-pc-latest.json 2>/dev/null; then MANIFEST=/tmp/spos-pc-latest.json; break; fi
+  if t=$(read_url "$u" 2>/dev/null); then MANIFEST_JSON="$t"; fi
+  if [ -n "$MANIFEST_JSON" ]; then break; fi
 done
 
 VERSION=""
 DEB_URL=""
 DEB_SHA=""
-if [ -n "$MANIFEST" ] && [ -s "$MANIFEST" ]; then
+if [ -n "$MANIFEST_JSON" ]; then
   # الطبقة 1: تحليل JSON حقيقي بـ python3 (مضمون على أوبونتو/ديبيان الحديثة
-  # ويتعامل مع أي تنسيق: متعدد الأسطر أو مضغوط في سطر واحد)
+  # ويتعامل مع أي تنسيق: متعدد الأسطر أو مضغوط في سطر واحد) — عبر stdin
   if command -v python3 >/dev/null 2>&1; then
-    if PYV=$(python3 -c '
+    if PYV=$(printf '%s' "$MANIFEST_JSON" | python3 -c '
 import json, sys
 try:
-    d = json.load(open(sys.argv[1], encoding="utf-8"))
+    d = json.load(sys.stdin)
 except Exception:
     d = {}
 deb = d.get("deb") if isinstance(d.get("deb"), dict) else {}
 print(d.get("latest_version") or "")
 print(deb.get("url") or "")
-print(deb.get("sha256") or "")' "$MANIFEST" 2>/dev/null); then
+print(deb.get("sha256") or "")' 2>/dev/null); then
       VERSION=$(printf '%s\n' "$PYV" | sed -n '1p')
       DEB_URL=$(printf '%s\n' "$PYV" | sed -n '2p')
       DEB_SHA=$(printf '%s\n' "$PYV" | sed -n '3p')
@@ -74,20 +95,20 @@ print(deb.get("sha256") or "")' "$MANIFEST" 2>/dev/null); then
   fi
   # الطبقة 2: awk — اقتطاع كتلة «deb» متعددة الأسطر (من "deb": { حتى أول })
   if [ -z "$DEB_URL" ]; then
-    DEB_BLOCK=$(awk '/"deb"[[:space:]]*:[[:space:]]*\{/{f=1} f{print; if (/\}/) exit}' "$MANIFEST" 2>/dev/null || true)
+    DEB_BLOCK=$(printf '%s\n' "$MANIFEST_JSON" | awk '/"deb"[[:space:]]*:[[:space:]]*\{/{f=1} f{print; if (/\}/) exit}' 2>/dev/null || true)
     if [ -n "$DEB_BLOCK" ]; then
       DEB_URL=$(printf '%s\n' "$DEB_BLOCK" | grep -o '"url"[^,}]*' | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
       DEB_SHA=$(printf '%s\n' "$DEB_BLOCK" | grep -o '"sha256"[^,}]*' | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
     fi
     if [ -z "$VERSION" ]; then
-      VERSION=$(grep -o '"latest_version"[^,]*' "$MANIFEST" 2>/dev/null | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
+      VERSION=$(printf '%s\n' "$MANIFEST_JSON" | grep -o '"latest_version"[^,]*' | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
     fi
   fi
   # الطبقة 3: grep لسطر واحد مضغوط — "deb": { … } كاملة في سطر واحد
   if [ -z "$DEB_URL" ]; then
-    DEB_URL=$(grep -o '"deb"[[:space:]]*:[[:space:]]*{[^}]*}' "$MANIFEST" 2>/dev/null | grep -o '"url"[^,}]*' | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
+    DEB_URL=$(printf '%s\n' "$MANIFEST_JSON" | grep -o '"deb"[[:space:]]*:[[:space:]]*{[^}]*}' | grep -o '"url"[^,}]*' | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
     if [ -n "$DEB_URL" ]; then
-      DEB_SHA=$(grep -o '"deb"[[:space:]]*:[[:space:]]*{[^}]*}' "$MANIFEST" 2>/dev/null | grep -o '"sha256"[^,}]*' | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
+      DEB_SHA=$(printf '%s\n' "$MANIFEST_JSON" | grep -o '"deb"[[:space:]]*:[[:space:]]*{[^}]*}' | grep -o '"sha256"[^,}]*' | head -1 | sed 's/.*: *"\([^"]*\)".*/\1/' || true)
     fi
   fi
 fi
@@ -104,21 +125,29 @@ fi
 say "أحدث إصدار: ${VERSION:-غير معروف — الرابط الدائم}"
 say "الحزمة: $DEB_URL"
 
-# ---------- 2) التنزيل مع استئناف ----------
+# ---------- 2) التنزيل ----------
 TMPDEB="$(mktemp --suffix=.deb)"
-trap 'rm -f "$TMPDEB" /tmp/spos-pc-latest.json 2>/dev/null || true' EXIT
+trap 'rm -f "$TMPDEB" 2>/dev/null || true' EXIT
 say "جارٍ تنزيل الحزمة (نحو 107 ميغابايت)…"
-if ! fetch "$DEB_URL" "$TMPDEB"; then
+if ! download "$DEB_URL" "$TMPDEB"; then
   err "تعذر تنزيل الحزمة — تحقق من الاتصال بالإنترنت وأعد المحاولة"
   err "الرابط: $DEB_URL"
+  err "أو ثبّت يدوياً:  wget -O /tmp/spos.deb $DEB_URL && sudo apt install /tmp/spos.deb"
   exit 1
 fi
 say "تم التنزيل: $(du -h "$TMPDEB" | cut -f1)"
 
 # ---------- 3) فحص الحزمة والتحقق من البصمة ----------
+if [ ! -s "$TMPDEB" ]; then
+  err "الملف المنزّل فارغ (0 بايت) رغم غياب رسالة خطأ — فشل خفي في التنزيل"
+  err "إن كان curl لديك نسخة Snap فهذا سببه المعروف؛ ثبّت wget: sudo apt install wget ثم أعد المحاولة"
+  err "أو يدوياً:  wget -O /tmp/spos.deb $DEB_URL && sudo apt install /tmp/spos.deb"
+  exit 1
+fi
 if command -v dpkg-deb >/dev/null 2>&1; then
   if ! dpkg-deb -I "$TMPDEB" >/dev/null 2>&1; then
     err "الملف المنزّل ليس حزمة .deb صالحة — أعد المحاولة (قد يكون التنزيل مقطوعاً)"
+    err "أو ثبّت يدوياً:  wget -O /tmp/spos.deb $DEB_URL && sudo apt install /tmp/spos.deb"
     exit 1
   fi
 fi
@@ -169,7 +198,8 @@ if [ "$APT_OK" != 1 ]; then
   fi
   if ! dpkg -s "$PKG_NAME" >/dev/null 2>&1; then
     err "فشل التثبيت — أعد تشغيل الأمر، وإن تكرر نفّذ يدوياً:"
-    err "  sudo apt update && sudo apt install $DEB_URL"
+    err "  wget -O /tmp/spos.deb $DEB_URL"
+    err "  sudo apt install /tmp/spos.deb"
     exit 1
   fi
 fi
@@ -179,4 +209,5 @@ say ""
 say "=== تم التثبيت بنجاح ✓ (النسخة ${INSTALLED_VERSION:-مجهولة}) ==="
 say "افتح «SPOS Solah PC» من قائمة التطبيقات (تصنيف Office)"
 say "أو من الطرفية: spos-solah-pc"
+say "للتحديث مستقبلاً: أعد تشغيل نفس أمر التثبيت"
 say "للإزالة لاحقاً: sudo apt remove $PKG_NAME"
