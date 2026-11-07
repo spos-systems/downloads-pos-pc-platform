@@ -1,47 +1,47 @@
 {
-  "latest_version": "1.9.10",
+  "latest_version": "1.9.11",
   "min_supported_version": "1.0.0",
-  "changelog": "أربعة إصلاحات جذرية: (1) انزياح أعمدة قاعدة الشبكة PG الذي أسقط صفحة المبيعات وأزرار الطباعة بعد البيع — القراءة الآن بترتيب الأعمدة الفعلي من information_schema، (2) شريط التنقل لا يفتح ولا يقفل إلا بضغط زر «القائمة»، (3) الدخول دوماً عند تعذر الشبكة: إنترنت ضعيف أو خادم ترخيص مغلق = دخول فوري بالترخيص المحلي الموقّن (مهلة 6 ث للشبكة بدل انتظار يفجّر مهلة الإقلاع)، (4) مثبّت لينكس صغير جديد (4KB) ينزّل ويثبّت أحدث إصدار بتحقق البصمة",
+  "changelog": "إصلاح الجهاز الفرعي بعد موافقة الرئيسي — كان يفشل عند الإقلاع برسالة «خطأ في التهيئة: رد تالف من الجهاز الرئيسي»: (1) عنوان الرئيسي المخزّن بلا مخطط كان يجعل الطلب ينحرف إلى التطبيق نفسه بدل الجهاز الرئيسي — يُضمَن http:// دائماً الآن (2) طلب معلومات الخادم صار GET كما يخدمه الخادم. وفي لينكس: اسم عربي وكلمات مفتاحية عربية في قائمة التطبيقات — البحث بـ«صولة» يعمل وأيقونة الشريط ترتبط بالتطبيق",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "أربعة إصلاحات جذرية: (1) انزياح أعمدة قاعدة الشبكة PG الذي أسقط صفحة المبيعات وأزرار الطباعة بعد البيع — القراءة الآن بترتيب الأعمدة الفعلي من information_schema، (2) شريط التنقل لا يفتح ولا يقفل إلا بضغط زر «القائمة»، (3) الدخول دوماً عند تعذر الشبكة: إنترنت ضعيف أو خادم ترخيص مغلق = دخول فوري بالترخيص المحلي الموقّن (مهلة 6 ث للشبكة بدل انتظار يفجّر مهلة الإقلاع)، (4) مثبّت لينكس صغير جديد (4KB) ينزّل ويثبّت أحدث إصدار بتحقق البصمة",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Setup.exe",
+    "changelog": "إصلاح الجهاز الفرعي بعد موافقة الرئيسي — كان يفشل عند الإقلاع برسالة «خطأ في التهيئة: رد تالف من الجهاز الرئيسي»: (1) عنوان الرئيسي المخزّن بلا مخطط كان يجعل الطلب ينحرف إلى التطبيق نفسه بدل الجهاز الرئيسي — يُضمَن http:// دائماً الآن (2) طلب معلومات الخادم صار GET كما يخدمه الخادم. وفي لينكس: اسم عربي وكلمات مفتاحية عربية في قائمة التطبيقات — البحث بـ«صولة» يعمل وأيقونة الشريط ترتبط بالتطبيق",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.11/SPOS-Solah-PC-Setup.exe",
     "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Windows-x64-v1.9.10.zip",
-    "sha256": "363b74368a4a3a373c7e10921d0c02b53b8c78e3d59f827e5e04ab98b3ef58e4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.11/SPOS-Solah-PC-Windows-x64-v1.9.11.zip",
+    "sha256": "50521e1bb81b5d7eff623b9f336065256ba9e1dbe27b70ba56b2a5b1d259ccf3",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.11"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Windows-x64-v1.9.10.zip",
-    "sha256": "363b74368a4a3a373c7e10921d0c02b53b8c78e3d59f827e5e04ab98b3ef58e4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.11/SPOS-Solah-PC-Windows-x64-v1.9.11.zip",
+    "sha256": "50521e1bb81b5d7eff623b9f336065256ba9e1dbe27b70ba56b2a5b1d259ccf3",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.11"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Linux-x64-v1.9.10.zip",
-    "sha256": "303ca72b3c2b7dd3d82266c8a7681b5892657e5114e2bf6fa20b1eb96962430f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.11/SPOS-Solah-PC-Linux-x64-v1.9.11.zip",
+    "sha256": "c59791a4b1f0e671f1266c036bd2376877fbc50d2d825cbcc64dc3dd05d87336",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.11"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Linux-x64-v1.9.10.AppImage",
-    "sha256": "e8dbe7b7b31cf7b8062d22e8571dfd454c4250c91a3dd763f95bc8ba320590f4",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.11/SPOS-Solah-PC-Linux-x64-v1.9.11.AppImage",
+    "sha256": "0ed3ce2eb495865dc36857dbf470831fb88bc4804488f202317ee8f6f72b549d",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.11"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Linux-x64-v1.9.10.deb",
-    "sha256": "f014a594624a49a196029fd5075e7a584ac4b47a74d013d37f6c453f9d6661f6",
-    "size_mb": 106.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.10"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.11/SPOS-Solah-PC-Linux-x64-v1.9.11.deb",
+    "sha256": "d18bc182e44e01dce161778d8cbc6802aa24ee3bef7a8973e7ffa05216a93ca6",
+    "size_mb": 106.8,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.11"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.10/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.11/SPOS-Solah-PC-Setup.exe",
     "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
     "size_mb": 1.5
   },
