@@ -29,11 +29,19 @@ https://github.com/spos-systems/downloads-pos-pc-platform/releases/latest/downlo
 
 (أضف `https://github.com/spos-systems/downloads-pos-pc-platform/` قبل كل مسار)
 
-### 🐧 تثبيت لينكس عبر المثبّت (.deb)
-نقرة مزدوجة على الملف، أو من الطرفية:
+### 🐧 تثبيت لينكس عبر حزمة .deb (أوبونتو/ديبيان/منت/زورين)
+نزّل الحزمة من الجدول أعلاه، ثم من الطرفية داخل مجلد التنزيلات:
 ```bash
 sudo apt install ./SPOS-Solah-PC-Linux-x64.deb
 ```
+
+> ⚠️ **مركز تطبيقات أوبونتو (الواجهة الرسومية) لا يثبّت ملفات .deb المحلية**
+> في الإصدارات الحديثة (22.04 وأحدث): النقر المزدوج على الحزمة قد لا يفعل
+> شيئاً أو يعرض خطأ «غير مدعوم / not supported». هذا قصور معروف في أوبونتو
+> نفسها وليس في حزمتنا. الحلول: سطر الأوامر أعلاه، أو المثبّت بسطر واحد في
+> أعلى الصفحة (الأسهل)، أو ثبّت `gdebi` بـ `sudo apt install gdebi` ثم افتح
+> به ملف الحزمة.
+
 بعد التثبيت ستجد «SPOS Solah PC» في قائمة التطبيقات. للإزالة: `sudo apt remove spos-solah-pc`
 (AppImage يعمل مباشرة بدون تثبيت: `chmod +x SPOS-Solah-PC-Linux-x64.AppImage && ./SPOS-Solah-PC-Linux-x64.AppImage`)
 
