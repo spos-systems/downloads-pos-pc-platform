@@ -211,13 +211,29 @@ if [ "$APT_OK" != 1 ]; then
   fi
 fi
 
-# ---------- 5) اختصار على سطح المكتب تلقائياً (مثل مثبّت ويندوز) ----------
-# السكربت يعمل بصلاحية الجذر، لكن المستخدم الفعلي في متغير SUDO_USER —
-# نضع الاختصار على سطح مكتبه هو (لا على سطح مكتب root) ونوثّقه فوراً
-# (يعادل كليك يمين ← Allow Launching في جنوم).
+# ---------- 5) التكامل مع سطح المكتب تلقائياً (مثل مثبّت ويندوز) ----------
+# السكربت يعمل بصلاحية الجذر، لكن المستخدم الفعلي في متغير SUDO_USER:
+#   أ) نسخة مستوى المستخدم في ~/.local/share/applications — تظهر في
+#      قائمة التطبيقات والبحث فوراً بلا خروج/دخول حتى لو تأخرت
+#      فهرسة جنوم للمسار العام /usr/share/applications (بلاغ المالك:
+#      «لا تظهر في القائمة الرئيسية») — وبما أن حزمة v1.9.11+ تحمل
+#      اسماً عربياً (Name[ar]) وكلمات مفتاحية عربية فيعمل البحث بـ
+#      «صولة» أيضاً، فإن النسخ هنا تحمل هذه الإدخالات تلقائياً.
+#   ب) اختصار على سطح مكتب المستخدم نفسه موثّق فوراً (يعادل كليك
+#      يمين ← Allow Launching في جنوم) — لا حاجة لأي خطوة يدوية.
 SHORTCUT=""
+MENU_COPIED=""
 if [ -n "${SUDO_USER:-}" ] && [ "$SUDO_USER" != "root" ] && [ -f /usr/share/applications/spos-solah-pc.desktop ]; then
   USER_HOME=$(getent passwd "$SUDO_USER" | cut -d: -f6)
+  # (أ) نسخة مستوى المستخدم للقائمة — تُقرأ فوراً بلا إعادة دخول
+  LOCAL_APPS="$USER_HOME/.local/share/applications"
+  if mkdir -p "$LOCAL_APPS" 2>/dev/null && cp /usr/share/applications/spos-solah-pc.desktop "$LOCAL_APPS/" 2>/dev/null; then
+    chown -R "$SUDO_USER:" "$LOCAL_APPS/spos-solah-pc.desktop" 2>/dev/null || true
+    chmod 644 "$LOCAL_APPS/spos-solah-pc.desktop" 2>/dev/null || true
+    MENU_COPIED="1"
+  fi
+  update-desktop-database "$LOCAL_APPS" 2>/dev/null || true
+  # (ب) اختصار سطح المكتب الموثّق
   DESK_DIR=""
   if command -v xdg-user-dir >/dev/null 2>&1; then
     DESK_DIR=$(sudo -u "$SUDO_USER" xdg-user-dir DESKTOP 2>/dev/null || true)
@@ -237,10 +253,12 @@ fi
 INSTALLED_VERSION=$(dpkg-query -W -f='${Version}' "$PKG_NAME" 2>/dev/null || true)
 say ""
 say "=== تم التثبيت بنجاح ✓ (النسخة ${INSTALLED_VERSION:-مجهولة}) ==="
+if [ -n "$MENU_COPIED" ]; then
+  say "التطبيق في قائمة التطبيقات ✓ — ابحث بـ spos أو «صولة» (يظهر أيضاً داخل تصنيف Office)"
+fi
 if [ -n "$SHORTCUT" ]; then
   say "وضعنا لك اختصاراً على سطح المكتب ✓ (جاهز للنقر فوراً)"
 fi
-say "افتح «SPOS Solah PC» من قائمة التطبيقات (تصنيف Office)"
 say "أو من الطرفية: spos-solah-pc"
 say "للتحديث مستقبلاً: أعد تشغيل نفس أمر التثبيت"
 say "للإزالة لاحقاً: sudo apt remove $PKG_NAME"
