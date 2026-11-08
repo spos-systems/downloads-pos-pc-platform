@@ -1,48 +1,48 @@
 {
-  "latest_version": "1.9.15",
+  "latest_version": "1.9.16",
   "min_supported_version": "1.0.0",
-  "changelog": "إصلاح جذري لتحديث لينكس: كان التحديث يكمل التنزيل ثم يغلق التطبيق ولا يحدث شيء بعدها ويبقى الإصدار القديم — نافذة كلمة مرور النظام كانت تظهر بعد إغلاق التطبيق فتفوت المستخدم فيموت التحديث صمتاً كاملاً. الآن النافذة تظهر والتطبيق مفتوح أمامك ولا يغلق إلا بعد منح الإذن، وإن ألغيت النافذة تعود تلقائياً حتى ثلاث مرات، وأي فشل يظهر برسالة عربية واضحة فوراً بدل الصمت، وإعادة الفتح بعد التحديث صارت تجد ملف تصريح الرسوميات الصحيح في الجلسات الحديثة. كما صارت بطاقة تحديث التطبيق في الإعدادات تعرض رقم إصدارك الحالي فوراً بعد أن كانت تظهر حرف v فقط.",
+  "changelog": "طريقة دفع جديدة كلياً في شاشة التفعيل: الدفع بالحوالة البنكية وفعّل بنفسك بلا فني — حوّل المبلغ إلى حساب الشركة المصرفي (الحسابات تظهر داخل البرنامج بزر نسخ بنقرة) ثم افتح رمز QR بهاتفك وصوّر إيصال الحوالة أو ارفعه PDF من بوابة الدفع، وحين توافق الإدارة يُفعَّل ترخيصك الدائم تلقائياً خلال ثوانٍ والشاشة تلتقطه فوراً. لوحة الدفع تعرض السعر الأصلي مشطوباً والسعر المخفض بجانبه إن وُجد خصم ساري، والرفض يظهر سببه مع إمكانية المحاولة مرة أخرى. وعلى الخوادم التي لم تُحدَّث بعد للميزة يُخفى المسار كلياً تلقائياً فلا يظهر خيار لا يعمل.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "إصلاح جذري لتحديث لينكس: كان التحديث يكمل التنزيل ثم يغلق التطبيق ولا يحدث شيء بعدها ويبقى الإصدار القديم — نافذة كلمة مرور النظام كانت تظهر بعد إغلاق التطبيق فتفوت المستخدم فيموت التحديث صمتاً كاملاً. الآن النافذة تظهر والتطبيق مفتوح أمامك ولا يغلق إلا بعد منح الإذن، وإن ألغيت النافذة تعود تلقائياً حتى ثلاث مرات، وأي فشل يظهر برسالة عربية واضحة فوراً بدل الصمت، وإعادة الفتح بعد التحديث صارت تجد ملف تصريح الرسوميات الصحيح في الجلسات الحديثة. كما صارت بطاقة تحديث التطبيق في الإعدادات تعرض رقم إصدارك الحالي فوراً بعد أن كانت تظهر حرف v فقط.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Setup.exe",
-    "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
+    "changelog": "طريقة دفع جديدة كلياً في شاشة التفعيل: الدفع بالحوالة البنكية وفعّل بنفسك بلا فني — حوّل المبلغ إلى حساب الشركة المصرفي (الحسابات تظهر داخل البرنامج بزر نسخ بنقرة) ثم افتح رمز QR بهاتفك وصوّر إيصال الحوالة أو ارفعه PDF من بوابة الدفع، وحين توافق الإدارة يُفعَّل ترخيصك الدائم تلقائياً خلال ثوانٍ والشاشة تلتقطه فوراً. لوحة الدفع تعرض السعر الأصلي مشطوباً والسعر المخفض بجانبه إن وُجد خصم ساري، والرفض يظهر سببه مع إمكانية المحاولة مرة أخرى. وعلى الخوادم التي لم تُحدَّث بعد للميزة يُخفى المسار كلياً تلقائياً فلا يظهر خيار لا يعمل.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.16/SPOS-Solah-PC-Setup.exe",
+    "sha256": "bd850902068468d452b4340fcbd46e283779b719d8edd3d7166e5a664317f88d",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Windows-x64-v1.9.15.zip",
-    "sha256": "2e4394b6c4370f03be050b53df57225ec852c0b6a92b1a824e14b57a3e40b575",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.16/SPOS-Solah-PC-Windows-x64-v1.9.16.zip",
+    "sha256": "3b40eba8300fa7227e8f39ef736706eb5941fdaf29705e2915e73b22aa38fea2",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.16"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Windows-x64-v1.9.15.zip",
-    "sha256": "2e4394b6c4370f03be050b53df57225ec852c0b6a92b1a824e14b57a3e40b575",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.16/SPOS-Solah-PC-Windows-x64-v1.9.16.zip",
+    "sha256": "3b40eba8300fa7227e8f39ef736706eb5941fdaf29705e2915e73b22aa38fea2",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.16"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Linux-x64-v1.9.15.zip",
-    "sha256": "ab9649395bcac2b5067bef8f5e7b889cc7451288fc64f03ca57f364f52abfde8",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.16/SPOS-Solah-PC-Linux-x64-v1.9.16.zip",
+    "sha256": "2da97fc255fbfcb0a2ea6bc91c66948f1cfd20f5ed9549f2cd195436abf8bfd3",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.16"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Linux-x64-v1.9.15.AppImage",
-    "sha256": "5ad443b1e960db27e703829e534d8063854efb2dc2c413b1742207fa67ac9395",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.16/SPOS-Solah-PC-Linux-x64-v1.9.16.AppImage",
+    "sha256": "2d4e7979cca1213540ad41f6ce4d82bf837169b17244c60ed943bdb803701d3a",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.16"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Linux-x64-v1.9.15.deb",
-    "sha256": "afebde4ed9c98315ed839f0156dc6facab30762504d8897a8fd22edca6918a24",
-    "size_mb": 106.8,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.15"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.16/SPOS-Solah-PC-Linux-x64-v1.9.16.deb",
+    "sha256": "a97f0cf5c5767fe75ee6b25008799ac0098b14d5c05005e46216d0311c273869",
+    "size_mb": 106.5,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.16"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.15/SPOS-Solah-PC-Setup.exe",
-    "sha256": "84fa5f992ea7e05d3ad42a8d55946b1440d943c903410e5f0712eefcb5ef6e0f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.16/SPOS-Solah-PC-Setup.exe",
+    "sha256": "bd850902068468d452b4340fcbd46e283779b719d8edd3d7166e5a664317f88d",
     "size_mb": 1.5
   },
   "dependencies": {}
