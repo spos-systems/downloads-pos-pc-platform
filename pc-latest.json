@@ -1,48 +1,48 @@
 {
-  "latest_version": "1.9.19",
+  "latest_version": "1.9.21",
   "min_supported_version": "1.0.0",
-  "changelog": "قرار المالك «لا يجب أبداً أن يُكتب اختياري على الاسم أو الرقم في نافذة التفعيل — بل تُجلب تلقائياً من الإعداد الأولي وتُكتب في الحقول، ويمكن للمستخدم تعديلها أو تركها، وأيضاً حقل الشركة»: حقول الاسم ورقم الهاتف والشركة في لوحة الدفع بالحوالة (شاشة التفعيل) بلا كلمة «اختياري» نهائياً — تُجلب الثلاثة تلقائياً من بيانات الإعداد الأولي وتُكتب في الحقول فور فتح اللوحة مع سطر توضيحي «بياناتك جُلبت تلقائياً من الإعداد الأولي — عدّلها إن أردت أو اتركها كما هي»، وإصلاح تعبئة الاسم بعد إعادة تشغيل الجهاز (حمولة مفتاح الترخيص الموقّع لا تحمل الاسم — صار يُقرأ من بيانات الإعداد الأولي المحفوظة فلا يظهر حقل الاسم فارغاً)، وحقل الشركة الجديد في لوحة الحوالة يصل للإدارة مع الطلب. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+  "changelog": "v1.9.21 — طلبك المعلق يبقى بين يديك: طلب الدفع يُحفظ محلياً فيفتح التطبيق على طلبك القائم نفسه بعد أي إغلاق أو إعادة تشغيل، ورفع إيصال الحوالة صار مباشرة من الكمبيوتر نفسه (صورة أو PDF) بلا حاجة للهاتف، والخادم يستعيد الطلب النشط بدل رفضه، وانتهاء الصلاحية حالة واضحة بزر طلب جديد، وإعادة الإرسال بعد الرفض متاحة دائماً",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "قرار المالك «لا يجب أبداً أن يُكتب اختياري على الاسم أو الرقم في نافذة التفعيل — بل تُجلب تلقائياً من الإعداد الأولي وتُكتب في الحقول، ويمكن للمستخدم تعديلها أو تركها، وأيضاً حقل الشركة»: حقول الاسم ورقم الهاتف والشركة في لوحة الدفع بالحوالة (شاشة التفعيل) بلا كلمة «اختياري» نهائياً — تُجلب الثلاثة تلقائياً من بيانات الإعداد الأولي وتُكتب في الحقول فور فتح اللوحة مع سطر توضيحي «بياناتك جُلبت تلقائياً من الإعداد الأولي — عدّلها إن أردت أو اتركها كما هي»، وإصلاح تعبئة الاسم بعد إعادة تشغيل الجهاز (حمولة مفتاح الترخيص الموقّع لا تحمل الاسم — صار يُقرأ من بيانات الإعداد الأولي المحفوظة فلا يظهر حقل الاسم فارغاً)، وحقل الشركة الجديد في لوحة الحوالة يصل للإدارة مع الطلب. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.19/SPOS-Solah-PC-Setup.exe",
-    "sha256": "eba13ef8764b110e1903671cce84c5c6b1c0cbef848b4050fb83bef773184863",
+    "changelog": "v1.9.21 — طلبك المعلق يبقى بين يديك: طلب الدفع يُحفظ محلياً فيفتح التطبيق على طلبك القائم نفسه بعد أي إغلاق أو إعادة تشغيل، ورفع إيصال الحوالة صار مباشرة من الكمبيوتر نفسه (صورة أو PDF) بلا حاجة للهاتف، والخادم يستعيد الطلب النشط بدل رفضه، وانتهاء الصلاحية حالة واضحة بزر طلب جديد، وإعادة الإرسال بعد الرفض متاحة دائماً",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Setup.exe",
+    "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.19/SPOS-Solah-PC-Windows-x64-v1.9.19.zip",
-    "sha256": "e90e7848601ffe1efb750fbbae311f1d487838024b6b115ec67cac1149a2ff12",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Windows-x64-v1.9.21.zip",
+    "sha256": "d3291d4abb85ff17a63b4d16c682f21019d0295d1d2379804b3453de5162cbc7",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.19"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.19/SPOS-Solah-PC-Windows-x64-v1.9.19.zip",
-    "sha256": "e90e7848601ffe1efb750fbbae311f1d487838024b6b115ec67cac1149a2ff12",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Windows-x64-v1.9.21.zip",
+    "sha256": "d3291d4abb85ff17a63b4d16c682f21019d0295d1d2379804b3453de5162cbc7",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.19"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.19/SPOS-Solah-PC-Linux-x64-v1.9.19.zip",
-    "sha256": "30e3e031a93ce219671322e9e5121d0cfa5db9205a3b74246dbf4eee45603756",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Linux-x64-v1.9.21.zip",
+    "sha256": "19096b804c9b9afc27745cd08cc973e388f9d3a958a64aec960e28066ce7c0a7",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.19"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.19/SPOS-Solah-PC-Linux-x64-v1.9.19.AppImage",
-    "sha256": "3988d3d44c027579a8ee9ab1a9b9afbdf2076a1675e2d96ab185b984fdf1497f",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Linux-x64-v1.9.21.AppImage",
+    "sha256": "21f74287f108cd638ed5504da26b0f564b135aa05c103653820be5c07983ac6c",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.19"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.19/SPOS-Solah-PC-Linux-x64-v1.9.19.deb",
-    "sha256": "4c0cb8133e33de02d582e8f5f69833722436a4687aef8b4005c9302ee938fa17",
-    "size_mb": 106.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.19"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Linux-x64-v1.9.21.deb",
+    "sha256": "4379991b889fa60e5bdf4bcce161e162e252b89ad67daa29feb04d95ce2482a4",
+    "size_mb": 106.4,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.19/SPOS-Solah-PC-Setup.exe",
-    "sha256": "eba13ef8764b110e1903671cce84c5c6b1c0cbef848b4050fb83bef773184863",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Setup.exe",
+    "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
   "dependencies": {}
