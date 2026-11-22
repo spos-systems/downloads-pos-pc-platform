@@ -1,47 +1,48 @@
 {
-  "latest_version": "1.9.21",
+  "latest_version": "1.9.22",
   "min_supported_version": "1.0.0",
-  "changelog": "v1.9.21 — طلبك المعلق يبقى بين يديك: طلب الدفع يُحفظ محلياً فيفتح التطبيق على طلبك القائم نفسه بعد أي إغلاق أو إعادة تشغيل، ورفع إيصال الحوالة صار مباشرة من الكمبيوتر نفسه (صورة أو PDF) بلا حاجة للهاتف، والخادم يستعيد الطلب النشط بدل رفضه، وانتهاء الصلاحية حالة واضحة بزر طلب جديد، وإعادة الإرسال بعد الرفض متاحة دائماً",
+  "changelog": "v1.9.22 — الجذر الحقيقي لبلاغ «This page couldn't load» مقروء من ذيل أخطاء الزبون نفسه (spos-errq): سجل مستخدم فيه Username فارغ كان يفجّر شاشة الدخول بعد السبلاش مباشرة (TypeError على toLowerCase داخل Array.find) — صارت السجلات الفارغة مستبعدة من القائمة والمطابقة محصّنة، مع تحصين كل حقول البحث القابلة للفراغ. كذلك صفحة الخطأ عربية واضحة بنص الخطأ الفعلي وأزرار إعادة المحاولة/إعادة التشغيل، وكل أخطاء الواجهة تُسجَّل الآن في سجل الجهاز main.log للتشخيص بلا حاجة DevTools، ومرساة معرّف الجهاز من نظام التشغيل (MachineGuid) تسدّ طريق حصاد تجربة جديدة بمسح البيانات بعد انتهاء الاشتراك. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "v1.9.21 — طلبك المعلق يبقى بين يديك: طلب الدفع يُحفظ محلياً فيفتح التطبيق على طلبك القائم نفسه بعد أي إغلاق أو إعادة تشغيل، ورفع إيصال الحوالة صار مباشرة من الكمبيوتر نفسه (صورة أو PDF) بلا حاجة للهاتف، والخادم يستعيد الطلب النشط بدل رفضه، وانتهاء الصلاحية حالة واضحة بزر طلب جديد، وإعادة الإرسال بعد الرفض متاحة دائماً",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Setup.exe",
+    "changelog": "v1.9.22 — الجذر الحقيقي لبلاغ «This page couldn't load» مقروء من ذيل أخطاء الزبون نفسه (spos-errq): سجل مستخدم فيه Username فارغ كان يفجّر شاشة الدخول بعد السبلاش مباشرة (TypeError على toLowerCase داخل Array.find) — صارت السجلات الفارغة مستبعدة من القائمة والمطابقة محصّنة، مع تحصين كل حقول البحث القابلة للفراغ. كذلك صفحة الخطأ عربية واضحة بنص الخطأ الفعلي وأزرار إعادة المحاولة/إعادة التشغيل، وكل أخطاء الواجهة تُسجَّل الآن في سجل الجهاز main.log للتشخيص بلا حاجة DevTools، ومرساة معرّف الجهاز من نظام التشغيل (MachineGuid) تسدّ طريق حصاد تجربة جديدة بمسح البيانات بعد انتهاء الاشتراك. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
-    "size_mb": 1.5
+    "size_mb": 1.5,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Windows-x64-v1.9.21.zip",
-    "sha256": "d3291d4abb85ff17a63b4d16c682f21019d0295d1d2379804b3453de5162cbc7",
-    "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Windows-x64-v1.9.22.zip",
+    "sha256": "32d5ef68000f51597d3d7f962f1f9c8efccd54671f86814b7c9885ed3b1049cc",
+    "size_mb": 221.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Windows-x64-v1.9.21.zip",
-    "sha256": "d3291d4abb85ff17a63b4d16c682f21019d0295d1d2379804b3453de5162cbc7",
-    "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Windows-x64-v1.9.22.zip",
+    "sha256": "32d5ef68000f51597d3d7f962f1f9c8efccd54671f86814b7c9885ed3b1049cc",
+    "size_mb": 221.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Linux-x64-v1.9.21.zip",
-    "sha256": "19096b804c9b9afc27745cd08cc973e388f9d3a958a64aec960e28066ce7c0a7",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Linux-x64-v1.9.22.zip",
+    "sha256": "35e6c4e170bcd881b77b2728a9d49826fee70ed6a63addbc69d3336f4ee4ce47",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Linux-x64-v1.9.21.AppImage",
-    "sha256": "21f74287f108cd638ed5504da26b0f564b135aa05c103653820be5c07983ac6c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Linux-x64-v1.9.22.AppImage",
+    "sha256": "fec37ab7fe40aafafc1e8d892131613f88e6a941f51260a7c67df44b229cbeea",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Linux-x64-v1.9.21.deb",
-    "sha256": "4379991b889fa60e5bdf4bcce161e162e252b89ad67daa29feb04d95ce2482a4",
-    "size_mb": 106.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.21"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Linux-x64-v1.9.22.deb",
+    "sha256": "ba257360995aa968001f367d2c74d3e33f07c2b706a345850bad29c860d945e9",
+    "size_mb": 105.9,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.21/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
