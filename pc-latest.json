@@ -1,47 +1,47 @@
 {
-  "latest_version": "1.9.22",
+  "latest_version": "1.9.23",
   "min_supported_version": "1.0.0",
-  "changelog": "v1.9.22 — الجذر الحقيقي لبلاغ «This page couldn't load» مقروء من ذيل أخطاء الزبون نفسه (spos-errq): سجل مستخدم فيه Username فارغ كان يفجّر شاشة الدخول بعد السبلاش مباشرة (TypeError على toLowerCase داخل Array.find) — صارت السجلات الفارغة مستبعدة من القائمة والمطابقة محصّنة، مع تحصين كل حقول البحث القابلة للفراغ. والقضاء على المنشأ نفسه: حساب الدخول صار إجبارياً عند إدخال أي موظف من نافذة الكمبيوتر (كان مفتاحاً اختيارياً هو ما يخلق سجلات بلا اسم دخول أصلاً)، مع إصلاح إلزامي للسجلات القديمة الناقصة عند أول تعديل. كذلك صفحة الخطأ عربية واضحة بنص الخطأ الفعلي وأزرار إعادة المحاولة/إعادة التشغيل، وكل أخطاء الواجهة تُسجَّل الآن في سجل الجهاز main.log للتشخيص بلا حاجة DevTools، ومرساة معرّف الجهاز من نظام التشغيل (MachineGuid) تسدّ طريق حصاد تجربة جديدة بمسح البيانات بعد انتهاء الاشتراك. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+  "changelog": "v1.9.23 — مصمم المطبوعات المتكامل (طلب المالك): تنسيق حر كامل للفواتير والتقارير والسندات وكشوف الحساب والإيصالات الحرارية معاً — منزلق مستقل لحجم كل عنصر على حدة (يكبّر رقم الهاتف وحده مثلاً، أو اسم المؤسسة، أو عنوان المستند، أو صفوف الجداول والخلاصة والتوقيعات)، مع عريض وإخفاء لكل عنصر نصي، وتحكم مستقل بالشعار وQR بالمليمتر، وصور شركات الوكالات (حتى 6 صور لكل صورة موضعها المستقل: بجوار الشعار أو تحت الترويسة أو فوق التذييل) — كل ذلك من الإعدادات ثم الفواتير ثم مصمم المطبوعات، مع محاكاة حية ببيانات تجريبية تعكس كل تعديل قبل الحفظ (فاتورة وإيصال وسند وتقرير وكشف حساب) وزر طباعة تجريبية حقيقية يخرج الورق من الطابعة. ومعه من نفس البلاغ: بعد قضاء دين أو تحصيله تظهر قائمة طباعة مثل البيع — وصل الواقعة بمرجع مميز (RCP-P أو PAY-P) لا يتصادم مع أرقام السندات الحقيقية فلا احتساب مزدوج في كشف الحساب — مع حفظ PDF في صفحتي الديون والموردين. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "v1.9.22 — الجذر الحقيقي لبلاغ «This page couldn't load» مقروء من ذيل أخطاء الزبون نفسه (spos-errq): سجل مستخدم فيه Username فارغ كان يفجّر شاشة الدخول بعد السبلاش مباشرة (TypeError على toLowerCase داخل Array.find) — صارت السجلات الفارغة مستبعدة من القائمة والمطابقة محصّنة، مع تحصين كل حقول البحث القابلة للفراغ. والقضاء على المنشأ نفسه: حساب الدخول صار إجبارياً عند إدخال أي موظف من نافذة الكمبيوتر (كان مفتاحاً اختيارياً هو ما يخلق سجلات بلا اسم دخول أصلاً)، مع إصلاح إلزامي للسجلات القديمة الناقصة عند أول تعديل. كذلك صفحة الخطأ عربية واضحة بنص الخطأ الفعلي وأزرار إعادة المحاولة/إعادة التشغيل، وكل أخطاء الواجهة تُسجَّل الآن في سجل الجهاز main.log للتشخيص بلا حاجة DevTools، ومرساة معرّف الجهاز من نظام التشغيل (MachineGuid) تسدّ طريق حصاد تجربة جديدة بمسح البيانات بعد انتهاء الاشتراك. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Setup.exe",
+    "changelog": "v1.9.23 — مصمم المطبوعات المتكامل (طلب المالك): تنسيق حر كامل للفواتير والتقارير والسندات وكشوف الحساب والإيصالات الحرارية معاً — منزلق مستقل لحجم كل عنصر على حدة (يكبّر رقم الهاتف وحده مثلاً، أو اسم المؤسسة، أو عنوان المستند، أو صفوف الجداول والخلاصة والتوقيعات)، مع عريض وإخفاء لكل عنصر نصي، وتحكم مستقل بالشعار وQR بالمليمتر، وصور شركات الوكالات (حتى 6 صور لكل صورة موضعها المستقل: بجوار الشعار أو تحت الترويسة أو فوق التذييل) — كل ذلك من الإعدادات ثم الفواتير ثم مصمم المطبوعات، مع محاكاة حية ببيانات تجريبية تعكس كل تعديل قبل الحفظ (فاتورة وإيصال وسند وتقرير وكشف حساب) وزر طباعة تجريبية حقيقية يخرج الورق من الطابعة. ومعه من نفس البلاغ: بعد قضاء دين أو تحصيله تظهر قائمة طباعة مثل البيع — وصل الواقعة بمرجع مميز (RCP-P أو PAY-P) لا يتصادم مع أرقام السندات الحقيقية فلا احتساب مزدوج في كشف الحساب — مع حفظ PDF في صفحتي الديون والموردين. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Windows-x64-v1.9.22.zip",
-    "sha256": "7f5724f9fd9e08f22c931f7110ecf764d047b4cff5b878ccd534884b1c2e18cf",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Windows-x64-v1.9.23.zip",
+    "sha256": "cf4165971ae07d28fa2f6db277b6f194649fb5ba049149f2095adb587cdfc98c",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Windows-x64-v1.9.22.zip",
-    "sha256": "7f5724f9fd9e08f22c931f7110ecf764d047b4cff5b878ccd534884b1c2e18cf",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Windows-x64-v1.9.23.zip",
+    "sha256": "cf4165971ae07d28fa2f6db277b6f194649fb5ba049149f2095adb587cdfc98c",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Linux-x64-v1.9.22.zip",
-    "sha256": "43299aba79cf3198c412c0485f96db8d32122cad9034eb77fc8504c971370111",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Linux-x64-v1.9.23.zip",
+    "sha256": "e4cbb86aa66b2edde85953ba6a0bfcc2a014276f5672bc5ed311be8922323259",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Linux-x64-v1.9.22.AppImage",
-    "sha256": "cfeccb4ec238619e868f94a7c3ed396c4b66df29f3b49d3070ba840f9cce8dd3",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Linux-x64-v1.9.23.AppImage",
+    "sha256": "b6ac96c96f499475e7fb9ba91f45c3d7afcc307a91503a2f30862e38807b25bc",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Linux-x64-v1.9.22.deb",
-    "sha256": "2c2ee25dbfb4b6a5a743eefe0eca4c95ea51b3bfffcf4697b8f29db690e2c5de",
-    "size_mb": 105.9,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.22"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Linux-x64-v1.9.23.deb",
+    "sha256": "40a0b80699b0a980dd2a5e7c54520563d4f7120f355af1b20485d836fe23e29e",
+    "size_mb": 106.4,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.22/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
