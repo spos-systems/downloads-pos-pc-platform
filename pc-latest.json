@@ -1,47 +1,47 @@
 {
-  "latest_version": "1.9.23",
+  "latest_version": "1.9.24",
   "min_supported_version": "1.0.0",
-  "changelog": "v1.9.23 — مصمم المطبوعات المتكامل (طلب المالك): تنسيق حر كامل للفواتير والتقارير والسندات وكشوف الحساب والإيصالات الحرارية معاً — منزلق مستقل لحجم كل عنصر على حدة (يكبّر رقم الهاتف وحده مثلاً، أو اسم المؤسسة، أو عنوان المستند، أو صفوف الجداول والخلاصة والتوقيعات)، مع عريض وإخفاء لكل عنصر نصي، وتحكم مستقل بالشعار وQR بالمليمتر، وصور شركات الوكالات (حتى 6 صور لكل صورة موضعها المستقل: بجوار الشعار أو تحت الترويسة أو فوق التذييل) — كل ذلك من الإعدادات ثم الفواتير ثم مصمم المطبوعات، مع محاكاة حية ببيانات تجريبية تعكس كل تعديل قبل الحفظ (فاتورة وإيصال وسند وتقرير وكشف حساب) وزر طباعة تجريبية حقيقية يخرج الورق من الطابعة. ومعه من نفس البلاغ: بعد قضاء دين أو تحصيله تظهر قائمة طباعة مثل البيع — وصل الواقعة بمرجع مميز (RCP-P أو PAY-P) لا يتصادم مع أرقام السندات الحقيقية فلا احتساب مزدوج في كشف الحساب — مع حفظ PDF في صفحتي الديون والموردين. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+  "changelog": "v1.9.24 — التحرير المباشر في مصمم المطبوعات (بناء على ملاحظة المالك على v1.9.23): المعاينة صارت هي المستند نفسه يُحرَّر فوقه مباشرة كبرامج الرسم — اضغط أي عنصر (الهاتف وحده مثلاً، أو الشعار، أو جدول الأصناف، أو سطر المطلوب) فيظهر شريط أدوات عائم بجانبه داخل المعاينة (أصغر/أكبر/عريض/إخفاء/تغيير الصورة/افتراضي) وتفتح خياراته في لوحة ثابتة بجانب المستند بلا أي صعود ونزول. سحب الشعار أو QR أو صور الوكالات أفقياً يغيّر حجمها بالمليمتر مباشرة، وتغيير صورة الشعار أو QR أو أي صورة وكالة صار بنقرة واحدة من المصمم نفسه. معاينة الوصل والإيصال الحراري صارت تبويبين ظاهرين (80 و58 مم) بجانب فاتورة A4 والسند والتقرير، وكل الأزرار انتقلت إلى شريط علوي واحد مع تحكم بالتكبير وملاءمة العرض. وميزة جديدة: إخفاء أي عنصر من المطبوعات كلياً (الهاتف أو العنوان أو السطر الفرعي أو الشعار أو QR) — يظهر في المصمم شبحاً باهتاً قابلاً للنقر لاستعادته ولا يخرج على الورق إطلاقاً. كل تعديل يسري حياً على المستند بلا إعادة تحميل، والتنسيق يسري على الفواتير والتقارير والسندات وكشوف الحساب والإيصالات معاً. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "v1.9.23 — مصمم المطبوعات المتكامل (طلب المالك): تنسيق حر كامل للفواتير والتقارير والسندات وكشوف الحساب والإيصالات الحرارية معاً — منزلق مستقل لحجم كل عنصر على حدة (يكبّر رقم الهاتف وحده مثلاً، أو اسم المؤسسة، أو عنوان المستند، أو صفوف الجداول والخلاصة والتوقيعات)، مع عريض وإخفاء لكل عنصر نصي، وتحكم مستقل بالشعار وQR بالمليمتر، وصور شركات الوكالات (حتى 6 صور لكل صورة موضعها المستقل: بجوار الشعار أو تحت الترويسة أو فوق التذييل) — كل ذلك من الإعدادات ثم الفواتير ثم مصمم المطبوعات، مع محاكاة حية ببيانات تجريبية تعكس كل تعديل قبل الحفظ (فاتورة وإيصال وسند وتقرير وكشف حساب) وزر طباعة تجريبية حقيقية يخرج الورق من الطابعة. ومعه من نفس البلاغ: بعد قضاء دين أو تحصيله تظهر قائمة طباعة مثل البيع — وصل الواقعة بمرجع مميز (RCP-P أو PAY-P) لا يتصادم مع أرقام السندات الحقيقية فلا احتساب مزدوج في كشف الحساب — مع حفظ PDF في صفحتي الديون والموردين. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Setup.exe",
+    "changelog": "v1.9.24 — التحرير المباشر في مصمم المطبوعات (بناء على ملاحظة المالك على v1.9.23): المعاينة صارت هي المستند نفسه يُحرَّر فوقه مباشرة كبرامج الرسم — اضغط أي عنصر (الهاتف وحده مثلاً، أو الشعار، أو جدول الأصناف، أو سطر المطلوب) فيظهر شريط أدوات عائم بجانبه داخل المعاينة (أصغر/أكبر/عريض/إخفاء/تغيير الصورة/افتراضي) وتفتح خياراته في لوحة ثابتة بجانب المستند بلا أي صعود ونزول. سحب الشعار أو QR أو صور الوكالات أفقياً يغيّر حجمها بالمليمتر مباشرة، وتغيير صورة الشعار أو QR أو أي صورة وكالة صار بنقرة واحدة من المصمم نفسه. معاينة الوصل والإيصال الحراري صارت تبويبين ظاهرين (80 و58 مم) بجانب فاتورة A4 والسند والتقرير، وكل الأزرار انتقلت إلى شريط علوي واحد مع تحكم بالتكبير وملاءمة العرض. وميزة جديدة: إخفاء أي عنصر من المطبوعات كلياً (الهاتف أو العنوان أو السطر الفرعي أو الشعار أو QR) — يظهر في المصمم شبحاً باهتاً قابلاً للنقر لاستعادته ولا يخرج على الورق إطلاقاً. كل تعديل يسري حياً على المستند بلا إعادة تحميل، والتنسيق يسري على الفواتير والتقارير والسندات وكشوف الحساب والإيصالات معاً. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Windows-x64-v1.9.23.zip",
-    "sha256": "cf4165971ae07d28fa2f6db277b6f194649fb5ba049149f2095adb587cdfc98c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Windows-x64-v1.9.24.zip",
+    "sha256": "1708b7042457268e361dce22c7174bbbe994e1ec199eca6b3205c02cfc36c89f",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Windows-x64-v1.9.23.zip",
-    "sha256": "cf4165971ae07d28fa2f6db277b6f194649fb5ba049149f2095adb587cdfc98c",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Windows-x64-v1.9.24.zip",
+    "sha256": "1708b7042457268e361dce22c7174bbbe994e1ec199eca6b3205c02cfc36c89f",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Linux-x64-v1.9.23.zip",
-    "sha256": "e4cbb86aa66b2edde85953ba6a0bfcc2a014276f5672bc5ed311be8922323259",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Linux-x64-v1.9.24.zip",
+    "sha256": "78aca785c00cfe29a33cdb1ea8b8cac9f3b3cc24d8b84d015357a083d2dcd974",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Linux-x64-v1.9.23.AppImage",
-    "sha256": "b6ac96c96f499475e7fb9ba91f45c3d7afcc307a91503a2f30862e38807b25bc",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Linux-x64-v1.9.24.AppImage",
+    "sha256": "4f6f0beb4475d23843ffdb2fb1804895540c154f197177000f2b65e077c80756",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Linux-x64-v1.9.23.deb",
-    "sha256": "40a0b80699b0a980dd2a5e7c54520563d4f7120f355af1b20485d836fe23e29e",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Linux-x64-v1.9.24.deb",
+    "sha256": "27e5776e27305146d132036b41a224a74b5e5ec9a13b1fad323959f2982d0596",
     "size_mb": 106.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.23"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.23/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
