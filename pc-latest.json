@@ -1,47 +1,47 @@
 {
-  "latest_version": "1.9.25",
+  "latest_version": "1.9.26",
   "min_supported_version": "1.0.0",
-  "changelog": "v1.9.25 — كشف حساب صادق + البحث في الديون (بناء على ملاحظة المالك): كل فاتورة دفعها العميل فوراً نقداً أو بالبطاقة تظهر الآن في كشف حسابه مدينة بكامل قيمتها يتبعها سطر «سداد فوري عند البيع» دائن بنفس القيمة فيتوالج الرصيد صفراً — بعد أن كانت غائبة عن الكشف تماماً — والرصيد الافتتاحي والختامي كما هما بلا أي تغيير. وبيان الكشف صار صادقاً مع طريقة الدفع: «سداد نقدي» للنقدي حصراً و«سداد ببطاقة» و«سداد بتحويل بنكي» و«سداد بتطبيق مصرفي» بنصوصها، على الشاشة وفي الكشف المطبوع بعمود طريقة الدفع الكامل. ومربع بحث جديد في الديون بالاسم أو الهاتف يصفّي المستحقات والالتزامات والسندات والأرصدة الدائنة وزر التقرير يطبع النتائج المرئية حرفياً. ونافذة الموظفين على الشاشات الضيقة: التبويبات الأربعة في شبكة واحدة متساوية بعد أن كان تبويب الأدوار والصلاحيات يسقط خارج مكانه. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+  "changelog": "v1.9.26 — النسخ الاحتياطي إلى Google Drive (منقول من تطبيق الهاتف الناجح): زر «ربط حساب جوجل» في الإعدادات ← النسخ يفتح نافذة جوجل الرسمية في متصفح النظام (OAuth2+PKCE مع فحص تهيئة جوجل قبل أي نافذة — فالضغط يرد دائماً إما بنافذة فورية أو برسالة إصلاح عربية فورية)، وبعد موافقة الزبون مرة واحدة تُرفع نسخة مشفّرة بترخيصه إلى مجلد «SPOS Backups» في Drive حسابه الخاص — بلا اشتراك وبلا أي خادم — بآخر 7 نسخ، ونسخة تلقائية صامتة مرة كل ~24 ساعة عند فتح المنظومة، والاستعادة بضغطة من ورقة النسخ بالتحقق والاستبدال الكامل كأي نسخة ملف، وملف النسخة نفسه صيغة واحدة موحدة تعمل على الهاتف والكمبيوتر معاً، والقاعدة الشبكية على الجهاز الرئيسي تصدَّر كاملة كما في النسخة اليدوية. وودجت درايف العائم في الرئيسية ينبض ويعرّف بنفسه في الدخولين الأول والثاني ثم يختفي بلا إزعاج (طلب المالك نفسه الذي نُفّذ في الهاتف). ولا يحتاج أي خطوة جديدة في Google Cloud — عميل الهاتف نفسه يخدم الكمبيوتر برابط العودة نفسه يُسجَّل مع المنظومة وقت التثبيت والتشغيل. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "v1.9.25 — كشف حساب صادق + البحث في الديون (بناء على ملاحظة المالك): كل فاتورة دفعها العميل فوراً نقداً أو بالبطاقة تظهر الآن في كشف حسابه مدينة بكامل قيمتها يتبعها سطر «سداد فوري عند البيع» دائن بنفس القيمة فيتوالج الرصيد صفراً — بعد أن كانت غائبة عن الكشف تماماً — والرصيد الافتتاحي والختامي كما هما بلا أي تغيير. وبيان الكشف صار صادقاً مع طريقة الدفع: «سداد نقدي» للنقدي حصراً و«سداد ببطاقة» و«سداد بتحويل بنكي» و«سداد بتطبيق مصرفي» بنصوصها، على الشاشة وفي الكشف المطبوع بعمود طريقة الدفع الكامل. ومربع بحث جديد في الديون بالاسم أو الهاتف يصفّي المستحقات والالتزامات والسندات والأرصدة الدائنة وزر التقرير يطبع النتائج المرئية حرفياً. ونافذة الموظفين على الشاشات الضيقة: التبويبات الأربعة في شبكة واحدة متساوية بعد أن كان تبويب الأدوار والصلاحيات يسقط خارج مكانه. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Setup.exe",
+    "changelog": "v1.9.26 — النسخ الاحتياطي إلى Google Drive (منقول من تطبيق الهاتف الناجح): زر «ربط حساب جوجل» في الإعدادات ← النسخ يفتح نافذة جوجل الرسمية في متصفح النظام (OAuth2+PKCE مع فحص تهيئة جوجل قبل أي نافذة — فالضغط يرد دائماً إما بنافذة فورية أو برسالة إصلاح عربية فورية)، وبعد موافقة الزبون مرة واحدة تُرفع نسخة مشفّرة بترخيصه إلى مجلد «SPOS Backups» في Drive حسابه الخاص — بلا اشتراك وبلا أي خادم — بآخر 7 نسخ، ونسخة تلقائية صامتة مرة كل ~24 ساعة عند فتح المنظومة، والاستعادة بضغطة من ورقة النسخ بالتحقق والاستبدال الكامل كأي نسخة ملف، وملف النسخة نفسه صيغة واحدة موحدة تعمل على الهاتف والكمبيوتر معاً، والقاعدة الشبكية على الجهاز الرئيسي تصدَّر كاملة كما في النسخة اليدوية. وودجت درايف العائم في الرئيسية ينبض ويعرّف بنفسه في الدخولين الأول والثاني ثم يختفي بلا إزعاج (طلب المالك نفسه الذي نُفّذ في الهاتف). ولا يحتاج أي خطوة جديدة في Google Cloud — عميل الهاتف نفسه يخدم الكمبيوتر برابط العودة نفسه يُسجَّل مع المنظومة وقت التثبيت والتشغيل. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Windows-x64-v1.9.25.zip",
-    "sha256": "c3e258396ade36568f2dca52fb790d3093c1251dbd46cfd56e5f733f1212ccbc",
-    "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Windows-x64-v1.9.26.zip",
+    "sha256": "d5f417069c511fa164ce866bf80c2d7abefcea543421acf5a316dc7124370a58",
+    "size_mb": 241.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Windows-x64-v1.9.25.zip",
-    "sha256": "c3e258396ade36568f2dca52fb790d3093c1251dbd46cfd56e5f733f1212ccbc",
-    "size_mb": 241.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Windows-x64-v1.9.26.zip",
+    "sha256": "d5f417069c511fa164ce866bf80c2d7abefcea543421acf5a316dc7124370a58",
+    "size_mb": 241.6,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Linux-x64-v1.9.25.zip",
-    "sha256": "86f6507b91a1e9d820e996c692bdc60161c8cf9429a7f9775130d349d168ba00",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Linux-x64-v1.9.26.zip",
+    "sha256": "44da19f18e10dc983a44a52b974948b35a01c1eb4bcc1d51bdacc5d2d011bd9a",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Linux-x64-v1.9.25.AppImage",
-    "sha256": "d6a68f61348becddc203598544575e5ef937e3c2564f188030ddb24910faf1e5",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Linux-x64-v1.9.26.AppImage",
+    "sha256": "4ad930a53e57eb29421d835aa670f243f674112c3d3b4925b9c4b6261966c5f9",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Linux-x64-v1.9.25.deb",
-    "sha256": "9244f24000a8058ccc812d680a32bd6e0a84caaeab4ec623be1d1bb352b5e87a",
-    "size_mb": 106.8,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Linux-x64-v1.9.26.deb",
+    "sha256": "fd7c20bb23080b0452e472bf341187ea37c7325f35081653313e8fa44864b64c",
+    "size_mb": 106.7,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   }
