@@ -1,49 +1,48 @@
 {
-  "latest_version": "1.9.24",
+  "latest_version": "1.9.25",
   "min_supported_version": "1.0.0",
-  "changelog": "v1.9.24 — التحرير المباشر في مصمم المطبوعات (بناء على ملاحظة المالك على v1.9.23): المعاينة صارت هي المستند نفسه يُحرَّر فوقه مباشرة كبرامج الرسم — اضغط أي عنصر (الهاتف وحده مثلاً، أو الشعار، أو جدول الأصناف، أو سطر المطلوب) فيظهر شريط أدوات عائم بجانبه داخل المعاينة (أصغر/أكبر/عريض/إخفاء/تغيير الصورة/افتراضي) وتفتح خياراته في لوحة ثابتة بجانب المستند بلا أي صعود ونزول. سحب الشعار أو QR أو صور الوكالات أفقياً يغيّر حجمها بالمليمتر مباشرة، وتغيير صورة الشعار أو QR أو أي صورة وكالة صار بنقرة واحدة من المصمم نفسه. معاينة الوصل والإيصال الحراري صارت تبويبين ظاهرين (80 و58 مم) بجانب فاتورة A4 والسند والتقرير، وكل الأزرار انتقلت إلى شريط علوي واحد مع تحكم بالتكبير وملاءمة العرض. وميزة جديدة: إخفاء أي عنصر من المطبوعات كلياً (الهاتف أو العنوان أو السطر الفرعي أو الشعار أو QR) — يظهر في المصمم شبحاً باهتاً قابلاً للنقر لاستعادته ولا يخرج على الورق إطلاقاً. كل تعديل يسري حياً على المستند بلا إعادة تحميل، والتنسيق يسري على الفواتير والتقارير والسندات وكشوف الحساب والإيصالات معاً. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+  "changelog": "v1.9.25 — كشف حساب صادق + البحث في الديون (بناء على ملاحظة المالك): كل فاتورة دفعها العميل فوراً نقداً أو بالبطاقة تظهر الآن في كشف حسابه مدينة بكامل قيمتها يتبعها سطر «سداد فوري عند البيع» دائن بنفس القيمة فيتوالج الرصيد صفراً — بعد أن كانت غائبة عن الكشف تماماً — والرصيد الافتتاحي والختامي كما هما بلا أي تغيير. وبيان الكشف صار صادقاً مع طريقة الدفع: «سداد نقدي» للنقدي حصراً و«سداد ببطاقة» و«سداد بتحويل بنكي» و«سداد بتطبيق مصرفي» بنصوصها، على الشاشة وفي الكشف المطبوع بعمود طريقة الدفع الكامل. ومربع بحث جديد في الديون بالاسم أو الهاتف يصفّي المستحقات والالتزامات والسندات والأرصدة الدائنة وزر التقرير يطبع النتائج المرئية حرفياً. ونافذة الموظفين على الشاشات الضيقة: التبويبات الأربعة في شبكة واحدة متساوية بعد أن كان تبويب الأدوار والصلاحيات يسقط خارج مكانه. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "v1.9.24 — التحرير المباشر في مصمم المطبوعات (بناء على ملاحظة المالك على v1.9.23): المعاينة صارت هي المستند نفسه يُحرَّر فوقه مباشرة كبرامج الرسم — اضغط أي عنصر (الهاتف وحده مثلاً، أو الشعار، أو جدول الأصناف، أو سطر المطلوب) فيظهر شريط أدوات عائم بجانبه داخل المعاينة (أصغر/أكبر/عريض/إخفاء/تغيير الصورة/افتراضي) وتفتح خياراته في لوحة ثابتة بجانب المستند بلا أي صعود ونزول. سحب الشعار أو QR أو صور الوكالات أفقياً يغيّر حجمها بالمليمتر مباشرة، وتغيير صورة الشعار أو QR أو أي صورة وكالة صار بنقرة واحدة من المصمم نفسه. معاينة الوصل والإيصال الحراري صارت تبويبين ظاهرين (80 و58 مم) بجانب فاتورة A4 والسند والتقرير، وكل الأزرار انتقلت إلى شريط علوي واحد مع تحكم بالتكبير وملاءمة العرض. وميزة جديدة: إخفاء أي عنصر من المطبوعات كلياً (الهاتف أو العنوان أو السطر الفرعي أو الشعار أو QR) — يظهر في المصمم شبحاً باهتاً قابلاً للنقر لاستعادته ولا يخرج على الورق إطلاقاً. كل تعديل يسري حياً على المستند بلا إعادة تحميل، والتنسيق يسري على الفواتير والتقارير والسندات وكشوف الحساب والإيصالات معاً. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Setup.exe",
+    "changelog": "v1.9.25 — كشف حساب صادق + البحث في الديون (بناء على ملاحظة المالك): كل فاتورة دفعها العميل فوراً نقداً أو بالبطاقة تظهر الآن في كشف حسابه مدينة بكامل قيمتها يتبعها سطر «سداد فوري عند البيع» دائن بنفس القيمة فيتوالج الرصيد صفراً — بعد أن كانت غائبة عن الكشف تماماً — والرصيد الافتتاحي والختامي كما هما بلا أي تغيير. وبيان الكشف صار صادقاً مع طريقة الدفع: «سداد نقدي» للنقدي حصراً و«سداد ببطاقة» و«سداد بتحويل بنكي» و«سداد بتطبيق مصرفي» بنصوصها، على الشاشة وفي الكشف المطبوع بعمود طريقة الدفع الكامل. ومربع بحث جديد في الديون بالاسم أو الهاتف يصفّي المستحقات والالتزامات والسندات والأرصدة الدائنة وزر التقرير يطبع النتائج المرئية حرفياً. ونافذة الموظفين على الشاشات الضيقة: التبويبات الأربعة في شبكة واحدة متساوية بعد أن كان تبويب الأدوار والصلاحيات يسقط خارج مكانه. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Windows-x64-v1.9.24.zip",
-    "sha256": "1708b7042457268e361dce22c7174bbbe994e1ec199eca6b3205c02cfc36c89f",
-    "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Windows-x64-v1.9.25.zip",
+    "sha256": "c3e258396ade36568f2dca52fb790d3093c1251dbd46cfd56e5f733f1212ccbc",
+    "size_mb": 241.5,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Windows-x64-v1.9.24.zip",
-    "sha256": "1708b7042457268e361dce22c7174bbbe994e1ec199eca6b3205c02cfc36c89f",
-    "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Windows-x64-v1.9.25.zip",
+    "sha256": "c3e258396ade36568f2dca52fb790d3093c1251dbd46cfd56e5f733f1212ccbc",
+    "size_mb": 241.5,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Linux-x64-v1.9.24.zip",
-    "sha256": "78aca785c00cfe29a33cdb1ea8b8cac9f3b3cc24d8b84d015357a083d2dcd974",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Linux-x64-v1.9.25.zip",
+    "sha256": "86f6507b91a1e9d820e996c692bdc60161c8cf9429a7f9775130d349d168ba00",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Linux-x64-v1.9.24.AppImage",
-    "sha256": "4f6f0beb4475d23843ffdb2fb1804895540c154f197177000f2b65e077c80756",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Linux-x64-v1.9.25.AppImage",
+    "sha256": "d6a68f61348becddc203598544575e5ef937e3c2564f188030ddb24910faf1e5",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Linux-x64-v1.9.24.deb",
-    "sha256": "27e5776e27305146d132036b41a224a74b5e5ec9a13b1fad323959f2982d0596",
-    "size_mb": 106.4,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.24"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Linux-x64-v1.9.25.deb",
+    "sha256": "9244f24000a8058ccc812d680a32bd6e0a84caaeab4ec623be1d1bb352b5e87a",
+    "size_mb": 106.8,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.25"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.24/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.25/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
-  },
-  "dependencies": {}
+  }
 }
