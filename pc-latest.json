@@ -1,48 +1,49 @@
 {
-  "latest_version": "1.9.26",
+  "latest_version": "1.9.27",
   "min_supported_version": "1.0.0",
-  "changelog": "v1.9.26 — النسخ الاحتياطي إلى Google Drive (منقول من تطبيق الهاتف الناجح): زر «ربط حساب جوجل» في الإعدادات ← النسخ يفتح نافذة جوجل الرسمية في متصفح النظام (OAuth2+PKCE مع فحص تهيئة جوجل قبل أي نافذة — فالضغط يرد دائماً إما بنافذة فورية أو برسالة إصلاح عربية فورية)، وبعد موافقة الزبون مرة واحدة تُرفع نسخة مشفّرة بترخيصه إلى مجلد «SPOS Backups» في Drive حسابه الخاص — بلا اشتراك وبلا أي خادم — بآخر 7 نسخ، ونسخة تلقائية صامتة مرة كل ~24 ساعة عند فتح المنظومة، والاستعادة بضغطة من ورقة النسخ بالتحقق والاستبدال الكامل كأي نسخة ملف، وملف النسخة نفسه صيغة واحدة موحدة تعمل على الهاتف والكمبيوتر معاً، والقاعدة الشبكية على الجهاز الرئيسي تصدَّر كاملة كما في النسخة اليدوية. وودجت درايف العائم في الرئيسية ينبض ويعرّف بنفسه في الدخولين الأول والثاني ثم يختفي بلا إزعاج (طلب المالك نفسه الذي نُفّذ في الهاتف). ولا يحتاج أي خطوة جديدة في Google Cloud — عميل الهاتف نفسه يخدم الكمبيوتر برابط العودة نفسه يُسجَّل مع المنظومة وقت التثبيت والتشغيل. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+  "changelog": "v1.9.27 — إصلاح استعادة نسخة Google Drive على جهاز بقيت عليه حالة «جهاز رئيسي شبكي» من تثبيت قديم (إعداد رئيسي يبقى في ملف بيانات التطبيق بعد أي تحديث أو إزالة فيتجري كل شيء عبر «الجهاز الرئيسي» المحلي — حدس المالك صح تماماً): الاستعادة كانت تمحو جداول الشبكة أولاً ثم تفشل في منتصف الترحيل فتبقى القاعدة فارغة «فسدت» ويعاد فتح معالج الإعداد، واختيار «عادية (جهاز واحد)» يظهر «تعذر تصدير قاعدة الشبكة إلى هذا الجهاز (رد غير متوقع من الجهاز الرئيسي (500 HTTP))» في كل محاولة. الآن: الاستعادة والاستيراد في الوضع الشبكي ذرّيان بالكامل (المحو والترحيل في معاملة واحدة — أي فشل يعيد القاعدة كما كانت بلا فقد)، والتصفير الشبكي ذرّي كذلك، واتصال قاعدة الشبكة العالق داخل معاملة ميتة (مصدر 500 المتكرر) يُشفى ذاتياً، ومعالج الإعداد عند اختيار «عادية» على جهاز رئيسي سابق ينقل بيانات الشبكة إلى المحلية فعلاً (كان المسار يرتد للشبكة نفسها بلا كتابة المحلية)، وقاعدة الشبكة الفارغة أو المعطلة تُتخطى تلقائياً، وعند تعذر النقل بطاقة «متابعة بدون نقل بيانات الشبكة» تُكمل التثبيت بلا تعتل، ورسالة «رد غير متوقع من الجهاز الرئيسي» تعرض السبب الحقيقي. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
   "launcher": {
     "version": "1.6.4",
-    "changelog": "v1.9.26 — النسخ الاحتياطي إلى Google Drive (منقول من تطبيق الهاتف الناجح): زر «ربط حساب جوجل» في الإعدادات ← النسخ يفتح نافذة جوجل الرسمية في متصفح النظام (OAuth2+PKCE مع فحص تهيئة جوجل قبل أي نافذة — فالضغط يرد دائماً إما بنافذة فورية أو برسالة إصلاح عربية فورية)، وبعد موافقة الزبون مرة واحدة تُرفع نسخة مشفّرة بترخيصه إلى مجلد «SPOS Backups» في Drive حسابه الخاص — بلا اشتراك وبلا أي خادم — بآخر 7 نسخ، ونسخة تلقائية صامتة مرة كل ~24 ساعة عند فتح المنظومة، والاستعادة بضغطة من ورقة النسخ بالتحقق والاستبدال الكامل كأي نسخة ملف، وملف النسخة نفسه صيغة واحدة موحدة تعمل على الهاتف والكمبيوتر معاً، والقاعدة الشبكية على الجهاز الرئيسي تصدَّر كاملة كما في النسخة اليدوية. وودجت درايف العائم في الرئيسية ينبض ويعرّف بنفسه في الدخولين الأول والثاني ثم يختفي بلا إزعاج (طلب المالك نفسه الذي نُفّذ في الهاتف). ولا يحتاج أي خطوة جديدة في Google Cloud — عميل الهاتف نفسه يخدم الكمبيوتر برابط العودة نفسه يُسجَّل مع المنظومة وقت التثبيت والتشغيل. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Setup.exe",
+    "changelog": "v1.9.27 — إصلاح استعادة نسخة Google Drive على جهاز بقيت عليه حالة «جهاز رئيسي شبكي» من تثبيت قديم (إعداد رئيسي يبقى في ملف بيانات التطبيق بعد أي تحديث أو إزالة فيتجري كل شيء عبر «الجهاز الرئيسي» المحلي — حدس المالك صح تماماً): الاستعادة كانت تمحو جداول الشبكة أولاً ثم تفشل في منتصف الترحيل فتبقى القاعدة فارغة «فسدت» ويعاد فتح معالج الإعداد، واختيار «عادية (جهاز واحد)» يظهر «تعذر تصدير قاعدة الشبكة إلى هذا الجهاز (رد غير متوقع من الجهاز الرئيسي (500 HTTP))» في كل محاولة. الآن: الاستعادة والاستيراد في الوضع الشبكي ذرّيان بالكامل (المحو والترحيل في معاملة واحدة — أي فشل يعيد القاعدة كما كانت بلا فقد)، والتصفير الشبكي ذرّي كذلك، واتصال قاعدة الشبكة العالق داخل معاملة ميتة (مصدر 500 المتكرر) يُشفى ذاتياً، ومعالج الإعداد عند اختيار «عادية» على جهاز رئيسي سابق ينقل بيانات الشبكة إلى المحلية فعلاً (كان المسار يرتد للشبكة نفسها بلا كتابة المحلية)، وقاعدة الشبكة الفارغة أو المعطلة تُتخطى تلقائياً، وعند تعذر النقل بطاقة «متابعة بدون نقل بيانات الشبكة» تُكمل التثبيت بلا تعتل، ورسالة «رد غير متوقع من الجهاز الرئيسي» تعرض السبب الحقيقي. تحديث مباشر فوق أي إصدار سابق — بياناتك وقاعدتك كما هي.",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.27/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
   },
   "full": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Windows-x64-v1.9.26.zip",
-    "sha256": "d5f417069c511fa164ce866bf80c2d7abefcea543421acf5a316dc7124370a58",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.27/SPOS-Solah-PC-Windows-x64-v1.9.27.zip",
+    "sha256": "6dda5fdbc0f712ecb4d1a90d4034391e6fca132f958aa9837cad68c9b72e2392",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.27"
   },
   "windows": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Windows-x64-v1.9.26.zip",
-    "sha256": "d5f417069c511fa164ce866bf80c2d7abefcea543421acf5a316dc7124370a58",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.27/SPOS-Solah-PC-Windows-x64-v1.9.27.zip",
+    "sha256": "6dda5fdbc0f712ecb4d1a90d4034391e6fca132f958aa9837cad68c9b72e2392",
     "size_mb": 241.6,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.27"
   },
   "linux": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Linux-x64-v1.9.26.zip",
-    "sha256": "44da19f18e10dc983a44a52b974948b35a01c1eb4bcc1d51bdacc5d2d011bd9a",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.27/SPOS-Solah-PC-Linux-x64-v1.9.27.zip",
+    "sha256": "93ade12f1119caa7d4079c02fd45706e938a68a025583da9c2019ee8b4ede1ff",
     "size_mb": 134.5,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.27"
   },
   "appimage": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Linux-x64-v1.9.26.AppImage",
-    "sha256": "4ad930a53e57eb29421d835aa670f243f674112c3d3b4925b9c4b6261966c5f9",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.27/SPOS-Solah-PC-Linux-x64-v1.9.27.AppImage",
+    "sha256": "f898feb8f8bb1fd9825de5927ce1b4f402969004eb42b4e8d9e7aabf863c9b70",
     "size_mb": 136.1,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.27"
   },
   "deb": {
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Linux-x64-v1.9.26.deb",
-    "sha256": "fd7c20bb23080b0452e472bf341187ea37c7325f35081653313e8fa44864b64c",
-    "size_mb": 106.7,
-    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.26"
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.27/SPOS-Solah-PC-Linux-x64-v1.9.27.deb",
+    "sha256": "3026e0888ae0d39e0efcc5cc77aae45ba4c0ae362cdb8b7f6b5a082eb9db86e2",
+    "size_mb": 106.9,
+    "changelogUrl": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/tag/v1.9.27"
   },
   "installer": {
     "version": "1.6.4",
-    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.26/SPOS-Solah-PC-Setup.exe",
+    "url": "https://github.com/spos-systems/downloads-pos-pc-platform/releases/download/v1.9.27/SPOS-Solah-PC-Setup.exe",
     "sha256": "e433195d0e6759629f213bc217f31322d11df41ab5bbd28a0e7874fb4519fee0",
     "size_mb": 1.5
-  }
+  },
+  "dependencies": {}
 }
